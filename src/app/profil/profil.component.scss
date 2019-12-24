@@ -1,0 +1,377 @@
+.profil-page{
+  background-color: #dbedf3;
+  height: auto;
+  width: 100%;
+  overflow-x:hidden !important;
+  overflow-y:hidden;
+}
+
+
+.quick-profil-row{
+width:85%;
+}
+
+
+.user-avatar{
+    border-radius: 50%;
+    background:url("../../assets/imgs/man.jpg");
+    background-size:cover;
+    width:170px;
+    height:170px;
+}
+
+
+.card-contain{
+background:none;
+border:0px;
+box-shadow:none;
+margin-top:90px;
+
+}
+
+
+.user-name{
+margin-top:15%;
+color:#283149;
+}
+
+.activity{
+    font-size: 16px;
+    color:gray;
+    font-family: 'Muli', sans-serif;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.snip1135 {
+  text-transform: uppercase;
+  font-weight: 500;
+    margin-top: 0px;
+}
+.snip1135 * {
+  box-sizing: border-box;
+}
+.snip1135 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  padding: 0;
+}
+.snip1135 a {
+  padding: 0.5em 0;
+  color: #2d3436;
+  position: relative;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.snip1135 a:before,
+.snip1135 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1135 a:before {
+  bottom: 0;
+  display: block;
+  height: 3px;
+  width: 0%;
+  content: "";
+  background-color: #F05742;
+}
+.snip1135 a:after {
+  left: 0;
+  top: 0;
+  padding: 0.5em 0;
+  position: absolute;
+  color: black;
+  white-space: nowrap;
+  max-width: 0%;
+  overflow: hidden;
+}
+.snip1135 a:hover:before,
+.snip1135 .current a:before {
+  opacity: 1;
+  width: 100%;
+}
+.snip1135 a:hover:after,
+.snip1135 .current a:after {
+  max-width: 100%;
+}
+
+
+
+.rotor-row{
+  width:85%;
+}
+
+.rotor{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 8px dotted #40739e;
+    border-style: dotted;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+.publication{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 15px;
+    opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+
+
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+
+
+.accordion{
+  position:absolute;
+  top:0px;
+  height:auto;
+}
+
+
+.titreS{
+    background-color: #283149;
+    padding: 7px 0px 3px 20px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    z-index: 1;
+    width:260px;
+    font-family: 'Muli', sans-serif;
+    color: white;
+    text-decoration:none;
+
+}
+
+.titreS2{
+    background-color: #283149;
+    padding: 7px 0px 3px 20px;
+    z-index: 1;
+    width:260px;
+    font-family: 'Muli', sans-serif;
+    color: #283149;
+    text-decoration:none;
+}
+
+#headingTwo{
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.titreS:hover{
+    background-color: #576574;
+}
+
+.titreS2:hover{
+    background-color: #576574;
+}
+
+
+.info-row{
+  border-bottom: 1px solid #c8d6e5;
+  width:230px;
+  font-family: 'Muli', sans-serif;
+  margin-top:5px;
+}
+
+
+.close-row{
+  background-color:#c8d6e5;
+  width:230px;
+  font-family: 'Muli', sans-serif;
+  margin-top:10px;
+  padding: 5px 0px 0px 0px;
+
+}
+
+
+.row-title{
+  font-size:5;
+  color:gray;
+  font-family: 'Muli', sans-serif;
+}
+
+
+.close-row-title{
+  font-size:12;
+  color:gray;
+  font-family: 'Muli', sans-serif;
+}
+
+
+#row-title-icon1{
+  color: #8395a7;
+}
+
+#row-title-icon2{
+  color: #8395a7;
+}
+
+#row-title-icon3{
+  color: #8395a7;
+}
+
+#row-title-icon4{
+  color: #8395a7;
+}
+
+#row-title-icon5{
+  color: #8395a7;
+}
+
+.info-result{
+  font-size:23;
+  color: #283149;
+}
+
+
+.containList{
+    width:240px;
+    margin-left:-5px;
+    margin-top:-20px;
+}
+
+div span:hover{
+    visibility: visible;
+}
+
+.close{
+    font-size: 20px;
+    color: gray;
+}
+
+.accordionTitle{
+    color: black;
+}
+
+.accordionTitle:hover{
+    color: black;
+}
+
+
+.card-accordion{
+  background:none;
+  border: none;
+  top:100px;
+}
+
+
+.text-head{
+  color: #283149;
+}
+
+.btn-link{
+  text-decoration:none;
+}
+
+
+
+.storieBull{
+    margin: 5px;
+    border-radius: 50%;
+    height: 50px;
+    width:50px;
+    border: 1px solid whitesmoke;
+}
+
+.storiesContain{
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.stories-row{
+  width:230px;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+
+
+
+.discuss-img{
+background-image: url('../../assets/imgs/portsaid.jpg');
+background-size: cover;
+}
+
+.list-discuss-img{
+background-image: url('../../assets/imgs/discussion.png');
+background-size: cover;
+border:1px solid #283149;
+}
+
+
+.acc-fix{
+position:fixed;
+}
+
+.padding-0{
+padding:0px;
+}
+
+.row-100{
+width:100%;
+}
+
+.btn-perso-style{
+height:43px;
+width:43px;
+border-radius:50%;
+outline:none;
+position:fixed;
+right:30px;
+bottom:30px;
+background:none;
+border:none;
+}
+
+.white{
+visibility:hidden;
+}
+
+.black{
+position:absolute;
+}
+
+.btn-perso-style:hover{
+background:#283149;
+}
+
+.btn-perso-style:hover .white{
+visibility:visible;
+}
+
+.btn-perso-style:hover .black{
+visibility:hidden;
+}
+

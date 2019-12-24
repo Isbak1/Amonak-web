@@ -1,0 +1,110 @@
+.option-desc{
+  visibility:visible;
+  position:absolute;
+  z-index:1;
+  color: #b2bec3;
+  right:12px;
+  outline:none;
+}
+
+.padding-0{
+padding:0px;
+}
+
+.friend-list-row{
+  height: auto;
+  margin-bottom:100px;
+}
+
+
+.friend-avatar{
+  border-radius:50%;
+  margin-top:13px;
+  height:80px;
+  width:80px;
+  background:url("../../assets/imgs/woman.jpg");
+  background-size:cover;
+}
+
+.friend-username{
+  position: absolute;
+  top:100px;
+  font-size:18px;
+}
+
+.friend-list-col{
+ height:170px;
+ margin-top:30px;
+}
+
+.friend-list-col:hover .friend-activity{
+color:#2980b9;
+}
+
+.friend-list-col:hover .option-desc{
+color:#2980b9;
+visibility:visible;
+}
+
+
+.friend-design{
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  cursor: default;
+  border-top-left-radius:3px;
+  border-top-right-radius:3px;
+}
+
+.friend-activity{
+  color:gray;
+  font-family: 'Muli', sans-serif;
+  font-size:12px;
+}
+
+.option-desc{
+  visibility: hidden;
+}
+
+
+.searchBar{
+    border: 1px solid #33425b;
+    border-radius: 3px;
+    width: 350px;
+    height: 32px;
+    outline: none !important;
+    background: #dbedf3;
+    padding-left:15px;
+    margin-left:40px;
+}
+
+
+.dropdown-menu::before {
+    border-bottom: 9px solid rgba(0, 0, 0, 0.2);
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    right: 10px;
+    position: absolute;
+    top: -8px;
+}
+
+  .dropdown-menu::after {
+    border-bottom: 8px solid #FFFFFF;
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    right: 10px;
+    position: absolute;
+    top: -7px;
+  }
+
+
+.dropdown-menu{
+border:0.5px solid silver;
+margin-left:-107px;
+width:150px !important;
+padding-bottom:0px;
+}

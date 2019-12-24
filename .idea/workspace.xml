@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ee46f036-9d13-476f-9792-a134d8b9a141" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/product.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/user.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/angular.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/browserslist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/e2e/protractor.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/e2e/src/app.e2e-spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/e2e/src/app.po.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/e2e/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/ionic.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/karma.conf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/app-routing.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/app.component.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/app.component.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/app.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/home/home.module.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/home/home.page.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/home/home.page.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/home/home.page.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/app/home/home.page.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/assets/icon/favicon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/assets/shapes.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/global.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/polyfills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/theme/variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/src/zone-flags.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/tsconfig.app.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/tsconfig.spec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mobile/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore~HEAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/protractor.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/e2e/src/app.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/src/app.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/e2e/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/e2e/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ad-publicity-modal/ad-publicity-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ad-publicity-modal/ad-publicity-modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ad-publicity-modal/ad-publicity-modal.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ad-publicity-modal/ad-publicity-modal.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ad-publicity-modal/ad-publicity-modal.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ad-publicity-modal/ad-publicity-modal.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ad-publicity-modal/ad-publicity-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ad-publicity-modal/ad-publicity-modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-management/alert-management.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-management/alert-management.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-management/alert-management.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-management/alert-management.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-management/alert-management.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-management/alert-management.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-management/alert-management.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-management/alert-management.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-modal/alert-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-modal/alert-modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-modal/alert-modal.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-modal/alert-modal.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-modal/alert-modal.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-modal/alert-modal.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-modal/alert-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-modal/alert-modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-option-dropdown/alert-option-dropdown.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-option-dropdown/alert-option-dropdown.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-option-dropdown/alert-option-dropdown.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-option-dropdown/alert-option-dropdown.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-option-dropdown/alert-option-dropdown.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-option-dropdown/alert-option-dropdown.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-option-dropdown/alert-option-dropdown.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-option-dropdown/alert-option-dropdown.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-publication/alert-publication.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-publication/alert-publication.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-publication/alert-publication.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-publication/alert-publication.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-publication/alert-publication.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-publication/alert-publication.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-publication/alert-publication.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-publication/alert-publication.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-publicity-modal/alert-publicity-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-publicity-modal/alert-publicity-modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-publicity-modal/alert-publicity-modal.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-publicity-modal/alert-publicity-modal.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-publicity-modal/alert-publicity-modal.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-publicity-modal/alert-publicity-modal.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/alert-publicity-modal/alert-publicity-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/alert-publicity-modal/alert-publicity-modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/app.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-contact/delivery-contact.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/blocking-modal/blocking-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blocking-modal/blocking-modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/blocking-modal/blocking-modal.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blocking-modal/blocking-modal.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/blocking-modal/blocking-modal.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blocking-modal/blocking-modal.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/blocking-modal/blocking-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blocking-modal/blocking-modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/blocking/blocking.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blocking/blocking.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/blocking/blocking.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blocking/blocking.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/blocking/blocking.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blocking/blocking.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/blocking/blocking.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/blocking/blocking.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/buy-form/buy-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/buy-form/buy-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/buy-form/buy-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/buy-form/buy-form.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/buy-form/buy-form.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/buy-form/buy-form.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/buy-form/buy-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/buy-form/buy-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ca-answers/ca-answers.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ca-answers/ca-answers.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ca-answers/ca-answers.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ca-answers/ca-answers.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ca-answers/ca-answers.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ca-answers/ca-answers.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ca-answers/ca-answers.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ca-answers/ca-answers.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ca-comment/ca-comment.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ca-comment/ca-comment.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ca-comment/ca-comment.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ca-comment/ca-comment.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ca-comment/ca-comment.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ca-comment/ca-comment.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/ca-comment/ca-comment.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ca-comment/ca-comment.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/categories - Shortcut.lnk" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/categories - Shortcut.lnk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/categories/categories.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/categories/categories.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/categories/categories.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/categories/categories.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/categories/categories.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/categories/categories.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/categories/categories.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/categories/categories.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-a-management/comments-a-management.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-a-management/comments-a-management.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-a-management/comments-a-management.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-a-management/comments-a-management.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-a-management/comments-a-management.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-a-management/comments-a-management.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-a-management/comments-a-management.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-a-management/comments-a-management.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-management/comments-management.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-management/comments-management.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-management/comments-management.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-management/comments-management.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-management/comments-management.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-management/comments-management.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-management/comments-management.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-management/comments-management.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-s-management/comments-s-management.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-s-management/comments-s-management.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-s-management/comments-s-management.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-s-management/comments-s-management.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-s-management/comments-s-management.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-s-management/comments-s-management.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/comments-s-management/comments-s-management.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/comments-s-management/comments-s-management.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cp-comment/cp-comment.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cp-comment/cp-comment.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cp-comment/cp-comment.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cp-comment/cp-comment.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cp-comment/cp-comment.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cp-comment/cp-comment.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cp-comment/cp-comment.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cp-comment/cp-comment.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cs-comment/cs-comment.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cs-comment/cs-comment.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cs-comment/cs-comment.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cs-comment/cs-comment.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cs-comment/cs-comment.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cs-comment/cs-comment.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cs-comment/cs-comment.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cs-comment/cs-comment.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cs-sales/cs-sales.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cs-sales/cs-sales.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cs-sales/cs-sales.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cs-sales/cs-sales.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cs-sales/cs-sales.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cs-sales/cs-sales.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/cs-sales/cs-sales.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/cs-sales/cs-sales.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/default-navbar/default-navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/default-navbar/default-navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/default-navbar/default-navbar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/default-navbar/default-navbar.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/default-navbar/default-navbar.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/default-navbar/default-navbar.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/default-navbar/default-navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/default-navbar/default-navbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-contact/delivery-contact.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-contact/delivery-contact.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-contact/delivery-contact.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/delivery-contact/delivery-contact.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-contact/delivery-contact.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-contact/delivery-contact.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-contact/delivery-contact.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-contact/delivery-contact.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-documentation/delivery-documentation.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-documentation/delivery-documentation.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-documentation/delivery-documentation.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-documentation/delivery-documentation.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-documentation/delivery-documentation.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-documentation/delivery-documentation.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-documentation/delivery-documentation.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-documentation/delivery-documentation.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-follow/delivery-follow.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-follow/delivery-follow.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-follow/delivery-follow.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/delivery-follow/delivery-follow.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-follow/delivery-follow.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-follow/delivery-follow.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-follow/delivery-follow.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-follow/delivery-follow.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-make/delivery-make.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-make/delivery-make.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-make/delivery-make.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-make/delivery-make.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-make/delivery-make.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-make/delivery-make.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-make/delivery-make.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-make/delivery-make.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-nav/delivery-nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-nav/delivery-nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-nav/delivery-nav.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-nav/delivery-nav.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-nav/delivery-nav.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-nav/delivery-nav.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-nav/delivery-nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-nav/delivery-nav.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-work/delivery-work.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-work/delivery-work.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-work/delivery-work.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/delivery-work/delivery-work.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-work/delivery-work.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-work/delivery-work.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery-work/delivery-work.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-work/delivery-work.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery/delivery.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery/delivery.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery/delivery.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery/delivery.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery/delivery.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery/delivery.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/delivery/delivery.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery/delivery.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/discussion-shortcut/discussion-shortcut.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/discussion-shortcut/discussion-shortcut.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/discussion-shortcut/discussion-shortcut.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/discussion-shortcut/discussion-shortcut.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/discussion-shortcut/discussion-shortcut.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/discussion-shortcut/discussion-shortcut.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/discussion-shortcut/discussion-shortcut.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/discussion-shortcut/discussion-shortcut.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-alerts/edit-alerts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-alerts/edit-alerts.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-alerts/edit-alerts.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/app/edit-alerts/edit-alerts.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-alerts/edit-alerts.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-alerts/edit-alerts.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-alerts/edit-alerts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-alerts/edit-alerts.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-form/edit-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-form/edit-form.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-form/edit-form.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-form/edit-form.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-form/edit-form.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-form/edit-form.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-form/edit-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-form/edit-form.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-nav/edit-nav.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-nav/edit-nav.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-nav/edit-nav.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-nav/edit-nav.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-nav/edit-nav.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-nav/edit-nav.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-nav/edit-nav.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-nav/edit-nav.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-post-option/edit-post-option.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-post-option/edit-post-option.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-post-option/edit-post-option.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-follow/delivery-follow.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-post-option/edit-post-option.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-post-option/edit-post-option.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-post-option/edit-post-option.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-post-option/edit-post-option.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-posts/edit-posts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-posts/edit-posts.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-posts/edit-posts.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-posts/edit-posts.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-posts/edit-posts.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-posts/edit-posts.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-posts/edit-posts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-posts/edit-posts.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-publication/edit-publication.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-publication/edit-publication.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-publication/edit-publication.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-publication/edit-publication.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-publication/edit-publication.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-publication/edit-publication.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-publication/edit-publication.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-publication/edit-publication.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-sales/edit-sales.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-sales/edit-sales.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-sales/edit-sales.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-sales/edit-sales.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-sales/edit-sales.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-sales/edit-sales.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-sales/edit-sales.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-sales/edit-sales.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-stories/edit-stories.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-stories/edit-stories.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-stories/edit-stories.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/delivery-work/delivery-work.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-stories/edit-stories.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-stories/edit-stories.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit-stories/edit-stories.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-stories/edit-stories.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit/edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit/edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit/edit.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit/edit.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit/edit.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit/edit.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/edit/edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit/edit.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/form-pr/form-pr.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/form-pr/form-pr.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/form-pr/form-pr.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-alerts/edit-alerts.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/form-pr/form-pr.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/form-pr/form-pr.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/form-pr/form-pr.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/form-pr/form-pr.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/get-premium/get-premium.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/get-premium/get-premium.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/get-premium/get-premium.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/get-premium/get-premium.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/get-premium/get-premium.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/get-premium/get-premium.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/get-premium/get-premium.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/get-premium/get-premium.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-footer/home-footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-post-option/edit-post-option.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-footer/home-footer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/edit-stories/edit-stories.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-footer/home-footer.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-footer/home-footer.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-footer/home-footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-footer/home-footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-left/home-left.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-left/home-left.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-left/home-left.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-left/home-left.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-left/home-left.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-left/home-left.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-left/home-left.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-left/home-left.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-right/home-right.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/form-pr/form-pr.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-right/home-right.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-footer/home-footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-right/home-right.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-right/home-right.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home-right/home-right.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-right/home-right.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home/home.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/img-c-management/img-c-management.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/img-c-management/img-c-management.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/img-c-management/img-c-management.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/img-c-management/img-c-management.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/img-c-management/img-c-management.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/img-c-management/img-c-management.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/img-c-management/img-c-management.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/img-c-management/img-c-management.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/info-pr/info-pr.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/info-pr/info-pr.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/info-pr/info-pr.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/info-pr/info-pr.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/info-pr/info-pr.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/info-pr/info-pr.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/info-pr/info-pr.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/info-pr/info-pr.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/login-footer/login-footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login-footer/login-footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/login-footer/login-footer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login-footer/login-footer.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/login-footer/login-footer.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login-footer/login-footer.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/login-footer/login-footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login-footer/login-footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/login/login.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/login/login.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/nav-publicity/nav-publicity.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/nav-publicity/nav-publicity.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/nav-publicity/nav-publicity.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/nav-publicity/nav-publicity.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/nav-publicity/nav-publicity.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/nav-publicity/nav-publicity.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/nav-publicity/nav-publicity.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/nav-publicity/nav-publicity.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/navbar-pr/navbar-pr.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar-pr/navbar-pr.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/navbar-pr/navbar-pr.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar-pr/navbar-pr.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/navbar-pr/navbar-pr.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar-pr/navbar-pr.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/navbar-pr/navbar-pr.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar-pr/navbar-pr.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/navbar/navbar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/navbar/navbar.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/navbar/navbar.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/navbar/navbar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/navbar/navbar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/news-fil/news-fil.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/news-fil/news-fil.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/news-fil/news-fil.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/news-fil/news-fil.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/news-fil/news-fil.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/news-fil/news-fil.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/news-fil/news-fil.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/news-fil/news-fil.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-management/post-management.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-management/post-management.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-management/post-management.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-management/post-management.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-management/post-management.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-management/post-management.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-management/post-management.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-management/post-management.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-modal/post-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-modal/post-modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-modal/post-modal.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-modal/post-modal.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-modal/post-modal.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-modal/post-modal.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-modal/post-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-modal/post-modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-option-dropdown/post-option-dropdown.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-option-dropdown/post-option-dropdown.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-option-dropdown/post-option-dropdown.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-option-dropdown/post-option-dropdown.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-option-dropdown/post-option-dropdown.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-option-dropdown/post-option-dropdown.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-option-dropdown/post-option-dropdown.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-option-dropdown/post-option-dropdown.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-publication/post-publication.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-publication/post-publication.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-publication/post-publication.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-publication/post-publication.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-publication/post-publication.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-publication/post-publication.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/post-publication/post-publication.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/post-publication/post-publication.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/premium/premium.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/premium/premium.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/premium/premium.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/premium/premium.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/premium/premium.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/premium/premium.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/premium/premium.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/premium/premium.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-alerts/profil-alerts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-alerts/profil-alerts.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-alerts/profil-alerts.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-alerts/profil-alerts.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-alerts/profil-alerts.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-alerts/profil-alerts.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-alerts/profil-alerts.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-alerts/profil-alerts.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-perso-affichage/profil-perso-affichage.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-perso-affichage/profil-perso-affichage.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-perso-affichage/profil-perso-affichage.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-perso-affichage/profil-perso-affichage.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-perso-affichage/profil-perso-affichage.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-perso-affichage/profil-perso-affichage.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-perso-affichage/profil-perso-affichage.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-perso-affichage/profil-perso-affichage.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-perso/profil-perso.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-perso/profil-perso.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-perso/profil-perso.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-perso/profil-perso.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-perso/profil-perso.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-perso/profil-perso.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-perso/profil-perso.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-perso/profil-perso.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-post/profil-post.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-post/profil-post.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-post/profil-post.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-post/profil-post.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-post/profil-post.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-post/profil-post.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-post/profil-post.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-post/profil-post.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-purchases/profil-purchases.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-purchases/profil-purchases.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-purchases/profil-purchases.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-purchases/profil-purchases.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-purchases/profil-purchases.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-purchases/profil-purchases.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-purchases/profil-purchases.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-purchases/profil-purchases.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-relationships-option/profil-relationships-option.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-relationships-option/profil-relationships-option.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-relationships-option/profil-relationships-option.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-relationships-option/profil-relationships-option.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-relationships-option/profil-relationships-option.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-relationships-option/profil-relationships-option.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-relationships-option/profil-relationships-option.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-relationships-option/profil-relationships-option.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-relationships/profil-relationships.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-relationships/profil-relationships.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-relationships/profil-relationships.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-relationships/profil-relationships.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-relationships/profil-relationships.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-relationships/profil-relationships.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-relationships/profil-relationships.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-relationships/profil-relationships.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-sales/profil-sales.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-sales/profil-sales.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-sales/profil-sales.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-sales/profil-sales.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-sales/profil-sales.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-sales/profil-sales.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil-sales/profil-sales.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil-sales/profil-sales.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil/profil.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil/profil.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil/profil.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil/profil.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil/profil.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil/profil.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/profil/profil.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/profil/profil.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/pub-premium/pub-premium.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pub-premium/pub-premium.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/pub-premium/pub-premium.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pub-premium/pub-premium.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/pub-premium/pub-premium.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pub-premium/pub-premium.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/pub-premium/pub-premium.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/pub-premium/pub-premium.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/publicity-page/publicity-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/publicity-page/publicity-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/publicity-page/publicity-page.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/publicity-page/publicity-page.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/publicity-page/publicity-page.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/publicity-page/publicity-page.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/publicity-page/publicity-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/publicity-page/publicity-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/publicity-sponsoring/publicity-sponsoring.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/publicity-sponsoring/publicity-sponsoring.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/publicity-sponsoring/publicity-sponsoring.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/publicity-sponsoring/publicity-sponsoring.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/publicity-sponsoring/publicity-sponsoring.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/publicity-sponsoring/publicity-sponsoring.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/publicity-sponsoring/publicity-sponsoring.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/publicity-sponsoring/publicity-sponsoring.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/reset/reset.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/reset/reset.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/reset/reset.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/reset/reset.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/reset/reset.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/reset/reset.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/reset/reset.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/reset/reset.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-management/sell-management.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-management/sell-management.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-management/sell-management.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-management/sell-management.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-management/sell-management.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-management/sell-management.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-management/sell-management.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-management/sell-management.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-modal/sell-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-modal/sell-modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-modal/sell-modal.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-modal/sell-modal.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-modal/sell-modal.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-modal/sell-modal.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-modal/sell-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-modal/sell-modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-option-dropdown/sell-option-dropdown.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-option-dropdown/sell-option-dropdown.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-option-dropdown/sell-option-dropdown.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-option-dropdown/sell-option-dropdown.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-option-dropdown/sell-option-dropdown.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-option-dropdown/sell-option-dropdown.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-option-dropdown/sell-option-dropdown.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-option-dropdown/sell-option-dropdown.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-publication/sell-publication.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-publication/sell-publication.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-publication/sell-publication.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-publication/sell-publication.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-publication/sell-publication.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-publication/sell-publication.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-publication/sell-publication.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-publication/sell-publication.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-publicity-modal/sell-publicity-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-publicity-modal/sell-publicity-modal.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-publicity-modal/sell-publicity-modal.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-publicity-modal/sell-publicity-modal.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-publicity-modal/sell-publicity-modal.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-publicity-modal/sell-publicity-modal.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sell-publicity-modal/sell-publicity-modal.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sell-publicity-modal/sell-publicity-modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sms-list/sms-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sms-list/sms-list.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sms-list/sms-list.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sms-list/sms-list.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sms-list/sms-list.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sms-list/sms-list.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/sms-list/sms-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/sms-list/sms-list.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/top-ten-products/top-ten-products.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/top-ten-products/top-ten-products.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/top-ten-products/top-ten-products.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/top-ten-products/top-ten-products.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/top-ten-products/top-ten-products.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/top-ten-products/top-ten-products.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/app/top-ten-products/top-ten-products.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/top-ten-products/top-ten-products.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-footer/home-footer.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/add-file.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/add-file.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/add-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/add-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/add-video.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/add-video.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/ads.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/ads.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/agrifood.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/agrifood.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/animal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/animal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/avatar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/avatar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/basket-sell.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/basket-sell.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/beauty.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/beauty.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/black-l.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/black-l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/black-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/black-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/business-individual.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/business-individual.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/business-services.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/business-services.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/car.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/car.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/cat-bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/cat-bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/chariot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/chariot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/chariott.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/chariott.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/chat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/check.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/check.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/cinema.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/cinema.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/contact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/contact.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/coppp.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/coppp.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/delivery.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/delivery.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/delivery.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/delivery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/design.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/design.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/discussion.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/discussion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/documentation.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/documentation.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/echec.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/echec.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/fashion.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/fashion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/footer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/footer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/game.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/game.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/get-pre.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/get-pre.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/group.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/group.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/group1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/group1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/group2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/group2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/health.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/health.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/home-apliance.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/home-apliance.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/home-footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/home-footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/add-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/add-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/add-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/add-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/add-outline.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/add-outline.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/add-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/add-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/answer.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/answer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/answer1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/answer1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/attachment.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/attachment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/basket.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/basket.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/calendar.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/calendar.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/chat-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/chat-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/chat.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/chat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/close.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/comment.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/comment.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/follow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/follow.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/image.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/like.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/like.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/location.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/location.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/notification-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/notification-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/notification.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/notification.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/option-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/option-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/option.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/option.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/pen-black.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/pen-black.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/pen-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/pen-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/plus-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/plus-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/send.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/send.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/share.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/share.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/sound-off.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/sound-off.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/icons/warning.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/icons/warning.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/immovable.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/immovable.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/insignia.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/insignia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/interior.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/interior.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/it.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/it.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/logo-dark.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/logo-dark.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/logo-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/logo-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/man.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/man.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/maps.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/maps.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/megaphone.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/megaphone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/nature.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/nature.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/no-all.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/no-all.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/no-message.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/no-message.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/no-publication.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/no-publication.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/nutrition.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/nutrition.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/okay.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/okay.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/orignal.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/orignal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/pen-post.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/pen-post.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/picture.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/picture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/portsaid.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/portsaid.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/post.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/post.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/prem.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/prem.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/premium.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/premium.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/presentation1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/presentation1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/press.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/press.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/prod.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/prod.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/publication.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/publication.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/resto.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/resto.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/scan.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/scan.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/setting.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/setting.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/shoe.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/shoe.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/simu1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/simu1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/simu2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/simu2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/simu3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/simu3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/simu4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/simu4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/simu5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/simu5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/simu6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/simu6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/simu7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/simu7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/sponso.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/sponso.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/sport.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/sport.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/squares.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/squares.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/stack.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/stack.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/stationery.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/stationery.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/suggestion.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/suggestion.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/team1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/team1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/team2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/team2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/tourism.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/tourism.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/training.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/training.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/white-l.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/white-l.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/white-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/white-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/assets/imgs/woman.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/imgs/woman.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/classes/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-right/home-right.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/classes/user.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/home-right/home-right.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/environments/environment.prod.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/environments/environment.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/services/login.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/login.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/services/login.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/login.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/app/delivery-contact/delivery-contact.component.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore~HEAD">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-247">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>app-comments-s-management</find>
+      <find>padding-0</find>
+      <find>no validated</find>
+      <find>app-comments-a-management</find>
+      <find>discussionShortcut</find>
+      <find>scuss-space</find>
+      <find>bottom</find>
+      <find>chat-action</find>
+      <find>red</find>
+      <find>mb-2</find>
+      <find>id=&quot;materialUnchecked&quot;</find>
+      <find>POST - SELL - ALERT</find>
+      <find>acti</find>
+      <find>post-list-col</find>
+      <find>friend-list-row</find>
+      <find>&lt;h2&gt;sale&lt;/h2&gt;</find>
+      <find>&lt;h2&gt;purchase&lt;/h2&gt;</find>
+      <find>alert</find>
+      <find>&lt;h2&gt;alert&lt;/h2&gt;</find>
+      <find>back</find>
+      <find>post</find>
+      <find>&lt;img src=&quot;../../assets/imgs/man.jpg&quot; class=&quot;friend-avatar&quot; width=&quot;80&quot; height=&quot;80&quot;&gt;</find>
+      <find>&lt;img src=&quot;../../assets/imgs/woman.jpg&quot; class=&quot;friend-avatar&quot; width=&quot;80&quot; height=&quot;80&quot;&gt;</find>
+      <find>modal-header</find>
+      <find>type-btn</find>
+      <find>url</find>
+      <find>edition</find>
+      <find>contain</find>
+      <find>navigation</find>
+      <find>&lt;img src=&quot;../../assets/imgs/avatar.png&quot; class=&quot;friend-avatar&quot; width=&quot;80&quot; height=&quot;80&quot;&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>col-md</replace>
+      <replace>post-list-col</replace>
+      <replace>user.png</replace>
+      <replace>avatar.png</replace>
+      <replace>mat-button class=&quot;block-btn&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;</replace>
+      <replace>h5</replace>
+      <replace>#7f8c8d</replace>
+      <replace>h6</replace>
+      <replace>modalPost</replace>
+      <replace>width=&quot;40px&quot; height=&quot;40px&quot;</replace>
+      <replace>border:1px solid blue</replace>
+      <replace>&lt;div mat-card-avatar class=&quot;discuss-img&quot;&gt;&lt;/div&gt;</replace>
+      <replace>user-row</replace>
+      <replace>2 days ago</replace>
+      <replace>&lt;div mat-card-avatar class=&quot;storybull&quot;&gt;&lt;/div&gt;</replace>
+      <replace>1 week ago</replace>
+      <replace>col-12 col-md-1 col-sm-1 option-ico</replace>
+      <replace>not validated</replace>
+      <replace>mb-3</replace>
+      <replace>POST</replace>
+      <replace>&lt;h2&gt;SALE&lt;/h2&gt;</replace>
+      <replace>&lt;h2&gt;PURCHASE&lt;/h2&gt;</replace>
+      <replace>purchase</replace>
+      <replace>alert</replace>
+      <replace>&lt;h2&gt;ALERT&lt;/h2&gt;</replace>
+      <replace>sale</replace>
+      <replace>&lt;div class=&quot;friend-avatar&quot;&gt;&lt;/div&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/src/app/publicity-sponsoring/publicity-sponsoring.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/default-navbar/default-navbar.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/premium/premium.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/publicity-page/publicity-page.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/delivery/delivery.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/home/home.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/delivery/delivery.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/premium/premium.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/publicity-page/publicity-page.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/navbar/navbar.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/default-navbar/default-navbar.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-relationships-option/profil-relationships-option.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-relationships/profil-relationships.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-relationships-option/profil-relationships-option.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-relationships/profil-relationships.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/profil/profil.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/profil/profil.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-perso/profil-perso.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-perso/profil-perso.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-perso-affichage/profil-perso-affichage.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-perso-affichage/profil-perso-affichage.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-sales/profil-sales.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-post/profil-post.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-post/profil-post.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-sales/profil-sales.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-alerts/profil-alerts.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-alerts/profil-alerts.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-purchases/profil-purchases.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/profil-purchases/profil-purchases.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/edit/edit.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/edit-nav/edit-nav.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/edit/edit.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/edit-publication/edit-publication.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/blocking/blocking.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/edit-posts/edit-posts.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/edit-sales/edit-sales.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/edit-alerts/edit-alerts.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/sell-publication/sell-publication.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/post-publication/post-publication.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/edit-alerts/edit-alerts.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/alert-publication/alert-publication.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/post-publication/post-publication.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/sell-publication/sell-publication.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/home-left/home-left.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/alert-publication/alert-publication.component.scss" />
+        <option value="$PROJECT_DIR$/web/src/app/edit-form/edit-form.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/edit-nav/edit-nav.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/blocking/blocking.component.html" />
+        <option value="$PROJECT_DIR$/web/src/app/edit-publication/edit-publication.component.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="854" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Amonak-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amonak-master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Amonak-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amonak-master" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Amonak-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Amonak-master" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ee46f036-9d13-476f-9792-a134d8b9a141" name="Default Changelist" comment="" />
+      <created>1572092740434</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572092740434</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.118003026" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.25040916" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3289689" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24962178" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ts" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.scss" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-relationships/profil-relationships.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="22" selection-end-line="107" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-relationships-option/profil-relationships-option.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-relationships/profil-relationships.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="100" column="77" selection-start-line="100" selection-start-column="77" selection-end-line="100" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/post-modal/post-modal.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="27" column="137" lean-forward="true" selection-start-line="27" selection-start-column="137" selection-end-line="27" selection-end-column="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-perso/profil-perso.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil/profil.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="130" column="68" lean-forward="true" selection-start-line="130" selection-start-column="68" selection-end-line="130" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil/profil.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-perso/profil-perso.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/sell-publicity-modal/sell-publicity-modal.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2414">
+          <caret line="142" column="20" lean-forward="true" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/sell-modal/sell-modal.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="75" column="126" selection-start-line="75" selection-start-column="126" selection-end-line="75" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/sell-modal/sell-modal.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="120" column="1" lean-forward="true" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-perso-affichage/profil-perso-affichage.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="26" column="15" selection-start-line="26" selection-start-column="15" selection-end-line="26" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-perso-affichage/profil-perso-affichage.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="28" column="95" selection-start-line="28" selection-start-column="95" selection-end-line="28" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/news-fil/news-fil.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-post/profil-post.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="163" column="45" selection-start-line="163" selection-start-column="41" selection-end-line="163" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/post-modal/post-modal.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="112" selection-start-line="112" selection-end-line="127" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-post/profil-post.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="235" column="48" selection-start-line="235" selection-start-column="48" selection-end-line="235" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-alerts/profil-alerts.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="180" column="50" selection-start-line="180" selection-start-column="50" selection-end-line="180" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-alerts/profil-alerts.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="176" column="56" selection-start-line="176" selection-start-column="56" selection-end-line="176" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-sales/profil-sales.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="225" column="8" selection-start-line="225" selection-start-column="8" selection-end-line="225" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-purchases/profil-purchases.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="161" column="99" selection-start-line="161" selection-start-column="99" selection-end-line="161" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-sales/profil-sales.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="260" column="20" selection-start-line="260" selection-start-column="20" selection-end-line="260" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/profil-purchases/profil-purchases.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="480" selection-start-line="480" selection-end-line="480" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/delivery-nav/delivery-nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/delivery-nav/delivery-nav.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit/edit.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit-nav/edit-nav.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="58" column="15" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit/edit.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit-publication/edit-publication.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/blocking/blocking.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="45" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit-sales/edit-sales.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit-posts/edit-posts.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="36" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit-alerts/edit-alerts.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/sell-publication/sell-publication.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/post-publication/post-publication.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-522">
+          <caret line="56" column="44" selection-start-line="56" selection-start-column="44" selection-end-line="56" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit-posts/edit-posts.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit-alerts/edit-alerts.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/post-publication/post-publication.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#1140#1146#0" expanded="true" />
+            <element signature="e#1287#1293#0" expanded="true" />
+            <element signature="e#1431#1437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/sell-publication/sell-publication.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#1136#1142#0" expanded="true" />
+            <element signature="e#1325#1331#0" expanded="true" />
+            <element signature="e#1471#1477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/home-left/home-left.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/home-left/home-left.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/alert-publication/alert-publication.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="42" selection-start-line="1" selection-start-column="42" selection-end-line="1" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit-nav/edit-nav.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit-form/edit-form.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/blocking/blocking.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/edit-publication/edit-publication.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="70" selection-end-line="2" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/alert-publication/alert-publication.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#1138#1144#0" expanded="true" />
+            <element signature="e#1326#1332#0" expanded="true" />
+            <element signature="e#1472#1478#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/app/delivery-contact/delivery-contact.component.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore~HEAD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="26" lean-forward="true" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
