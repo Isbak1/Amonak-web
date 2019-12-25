@@ -1,16 +1,17 @@
 <div class="delivery-page">
-  <app-default-navbar></app-default-navbar>
+  <!-- <app-default-navbar></app-default-navbar> -->
+  <app-navbar></app-navbar>
   <mat-card class="container contain-page padding-l">
     <div class="row padding-l">
       <div class="col-md-2 col-sm-2 padding-l">
         <app-delivery-nav class="position-fixed"></app-delivery-nav>
       </div>
       <div class="col-md-10 col-sm-10 mt-5">
-        <app-delivery-documentation class="mb-3"></app-delivery-documentation>
-        <app-delivery-make class="mb-3"></app-delivery-make>
-        <app-delivery-follow class="mb-3"></app-delivery-follow>
-        <app-delivery-work class="mb-3"></app-delivery-work>
-        <app-delivery-contact class="mb-3"></app-delivery-contact>
+        <app-delivery-documentation class="mb-3" id="docs"></app-delivery-documentation>
+        <app-delivery-make class="mb-3" id="request"></app-delivery-make>
+        <app-delivery-follow class="mb-3" id="del_follow"></app-delivery-follow>
+        <app-delivery-work class="mb-3" id="work_with_us"></app-delivery-work>
+        <app-delivery-contact class="mb-3" id="contact"></app-delivery-contact>
       </div>
     </div>
   </mat-card>
