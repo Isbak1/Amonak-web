@@ -16,25 +16,28 @@ import {DeliveryComponent} from "./delivery/delivery.component";
 
 
 const routes: Routes = [
-  { path: '',  component: LoginComponent },
-  { path: 'reset',  component: ResetComponent },
-  { path: 'home',  component: HomeComponent },
-  { path: 'profil',  component: ProfilComponent },
-  { path: 'discussionShortcut',  component: DiscussionShortcutComponent },
-  { path: 'edit',  component: EditComponent },
-  { path: 'editForm',  component: EditFormComponent },
-  { path: 'premium',  component: PremiumComponent },
-  { path: 'publicity',  component: PublicityPageComponent },
-  { path: 'post',  component: PostManagementComponent },
-  { path: 'sell',  component: SellManagementComponent },
-  { path: 'alert',  component: AlertManagementComponent },
-  { path: 'delivery',  component: DeliveryComponent },
-
-
+  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: 'login', component: LoginComponent },
+  { path: 'reset', component: ResetComponent },
+  // { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
+  { path: 'home', component: HomeComponent },
+  { path: 'profil', component: ProfilComponent },
+  { path: 'discussionShortcut', component: DiscussionShortcutComponent },
+  { path: 'edit', component: EditComponent },
+  { path: 'editForm', component: EditFormComponent },
+  { path: 'premium', component: PremiumComponent },
+  { path: 'publicity', component: PublicityPageComponent },
+  { path: 'post', component: PostManagementComponent },
+  { path: 'sell', component: SellManagementComponent },
+  { path: 'alert', component: AlertManagementComponent },
+  { path: 'delivery', component: DeliveryComponent },
+  { path: '**', redirectTo: '/login', pathMatch: 'full'}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {
+    anchorScrolling: 'enabled'
+  })],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
