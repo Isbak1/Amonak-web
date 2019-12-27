@@ -1,0 +1,52 @@
+.message-avatar {
+    background-image: url('../../assets/imgs/woman.jpg');
+    background-size: cover;
+    width:50px;
+    height:50px;
+  }
+
+
+.title-intro{
+font-size:12px;
+}
+
+
+.signal-receive{
+color:#2980b9;
+font-size:6px;
+position:absolute;
+margin-top:5px;
+}
+
+
+.message-date{
+line-height:2px;
+font-size:9px;
+color:#283149;
+}
+
+
+.user-actif{
+position:absolute;
+color:#27ae60;
+font-size:7px;
+margin-top:2px;
+}
+
+.padding-row{
+height:70px;
+}
+
+.padding-row:hover{
+background:whitesmoke;
+}
+
+.window-title{
+font-size:14px;
+color:#283149;
+}
+
+.important{
+font-size:14px;
+color:#283149;
+}

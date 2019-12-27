@@ -1,0 +1,31 @@
+<mat-card class="mt-3 pb-5">
+  <div class="row text-left title-row d-flex justify-content-left align-items-center">
+    <div class="col-12 col-md-12 col-sm-12 h3 title">Your publications</div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-12 col-sm-12">
+      <div class="container-fluid">
+        <div class="row category-row d-flex justify-content-center">
+          <div class="col-12 col-md-6 col-sm-6  category d-flex justify-content-center align-items-center" onclick="style='color:#7f8c8d;'">
+            <button class="button">
+              <img src="../../assets/imgs/icons/pub-premium.png" width="25" height="25">
+              &nbsp;Publication premium
+            </button>
+          </div>
+          <div class="col-12 col-md-6 col-sm-6  category d-flex justify-content-center align-items-center" onclick="style='color:#7f8c8d;'">
+            <button class="button">
+              <img src="../../assets/imgs/icons/sponsoring.png" width="25" height="25">
+              &nbsp;Sponsoring
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-12 col-sm-12">
+      <div class="container mt-5">
+        <app-edit-pub-premium></app-edit-pub-premium>
+        <app-edit-pub-sponsoring></app-edit-pub-sponsoring>
+      </div>
+    </div>
+  </div>
+</mat-card>

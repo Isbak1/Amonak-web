@@ -25,6 +25,12 @@ margin-top:-5px;
 z-index:1;
 }
 
+
+.user-row{
+width:220px;
+}
+
+
 .hover01 figure div {
 	-webkit-transform: scale(1);
 	transform: scale(1);
@@ -59,6 +65,7 @@ background:none;
 padding:0px;
 background:none;
 height:50px;
+width:250px;
 }
 
 .addlist-img{
@@ -74,7 +81,7 @@ font-size:15px;
 
 
 .avatar{
-background-image: url('../../assets/imgs/woman.jpg');
+background-image: url('../../assets/imgs/man.jpg');
 background-size: cover;
 width:45px;
 height:45px;

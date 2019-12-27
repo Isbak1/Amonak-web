@@ -9,7 +9,18 @@ font-size:14px;
 }
 
 
-.option-ico{
-color:gray;
+.mobileshow{
+visibility:hidden;
 }
 
+@media screen and (max-width: 500px) {
+.mobileshow {
+visibility: visible; }
+}
+
+
+
+@media screen and (max-width: 500px) {
+.desktopshow {
+display:none; }
+}
