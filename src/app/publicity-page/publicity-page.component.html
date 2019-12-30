@@ -5,11 +5,11 @@
   <div class="container contain-page padding-l">
     <div class="row padding-l">
       <div class="col-md-2 col-sm-2 padding-l">
-        <app-nav-publicity class="position-fixed"></app-nav-publicity>
+        <app-nav-publicity class="position-fixed" (fragment)="show($event)"></app-nav-publicity>
       </div>
-      <div class="col-md-9 col-sm-10">
-        <app-pub-premium id="pub_info"></app-pub-premium>
-        <app-publicity-sponsoring id="pub_sponsoring"></app-publicity-sponsoring>
+      <div class="col-md-9 col-sm-10" [ngSwitch]="fragment">
+        <app-pub-premium id="pub_info" *ngSwitchDefault></app-pub-premium>
+        <app-publicity-sponsoring id="pub_sponsoring" *ngSwitchCase="'pub_sponsoring'"></app-publicity-sponsoring>
       </div>
     </div>
   </div>

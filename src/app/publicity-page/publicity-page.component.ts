@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PublicityPageComponent implements OnInit {
 
+  fragment: string = null;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  show($event){
+    this.fragment = $event;
+    console.log(this.fragment);
   }
 
 }
