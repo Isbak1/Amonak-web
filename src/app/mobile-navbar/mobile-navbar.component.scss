@@ -40,18 +40,19 @@ border:1.5px solid silver;
 .items-col{
 height:100%;
 width:20%;
+outline:none;
 }
 
 
 .mobile-searchBar{
     border: none;
-    border-radius: 3px;
-    width: 140px;
-    height: 25px;
+    border-radius: 2px;
+    width: 200px;
+    height: 30px;
     outline: none !important;
     background: #dbedf3;
     padding-left:15px;
-    margin-left:20px;
+    margin-left:0px;
     font-size:13px;
 }
 
@@ -77,25 +78,11 @@ outline:none;
 }
 
 
-.go-home{
-background:url("../../assets/imgs/black-amonak.png");
-background-size:cover;
-height:30px;
-width:30px;
-border:none;
-outline:none;
-}
-
-
 .dropdown-menu{
 margin-bottom:4px;
 }
 
 
-
-.items-col:hover .point{
-display:none;
-}
 
 
 .point{

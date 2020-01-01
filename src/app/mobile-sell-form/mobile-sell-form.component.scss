@@ -1,0 +1,160 @@
+.contain-page{
+width:100%;
+height:100vh;
+border:none !important;
+box-shadow:none !important;
+padding:0px !important;
+margin:0px !important;
+}
+
+.btn-style{
+background:none;
+outline:none;
+border:none;
+}
+
+
+.input-apload {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
+
+.input-style{
+width:95%;
+border:1px solid silver;
+height:200px;
+padding-top:20px;
+padding-left:20px;
+outline:none !important;
+border-radius:5px;
+resize:none;
+}
+
+
+.input-style:focus{
+border-top:0px;
+border-left:0px;
+border-right:0px;
+border-radius:5px;
+width:100%;
+}
+
+.validate-style{
+width:50%;
+height:35px;
+border-radius:4px;
+border:none;
+background:#2980b9;
+color:white;
+margin-right:0px;
+margin-bottom:70px;
+}
+
+
+
+.aploaded-shortcut{
+height:35px;
+width:35px;
+border-radius:50px;
+background:#dbedf3;
+font-size:17px;
+color:#283149;
+margin-right:3px;
+border:0px;
+}
+
+.aploaded-shortcut:hover .close-icon{
+visibility:visible;
+}
+
+.aploaded-shortcut:hover{
+background:#283149;
+}
+
+.close-icon{
+font-size:14px;
+position:absolute;
+visibility:hidden;
+color:#f33535;
+}
+
+
+.product-name{
+height:auto;
+min-height:50px;
+max-height:150px;
+font-size:14;
+width:90%;
+border-top:0px;
+border-left:0px;
+border-right:0px;
+border-radius:0px;
+border-bottom:0.8px solid silver;
+outline:none;
+}
+
+
+.product-price{
+height:auto;
+min-height:50px;
+max-height:150px;
+font-size:14;
+width:100%;
+border-top:0px;
+border-left:0px;
+border-right:0px;
+border-radius:0px;
+border-bottom:0.8px solid silver;
+outline:none;
+}
+
+.padding-0{
+padding:0px;
+}
+
+.product-change{
+margin-top:4px;
+right:10px;
+width:100% !important;
+}
+
+
+.type-btn{
+width:90%;
+height:40px;
+background:whitesmoke;
+border:0px;
+outline:none;
+padding-top:7px;
+border-radius:4px;
+color:#283149;
+}
+
+
+.card-input{
+height:40px;
+border-radius:4px;
+font-size:14px;
+outline:none !important;
+margin-top:25px;
+padding-left:15px;
+border: 0.5px solid #dcdde1;
+}
+
+
+
+.card-number{
+width:100%;
+}
+
+.expiration{
+width:100%;
+}
+
+.cvc{
+width:100%;
+}

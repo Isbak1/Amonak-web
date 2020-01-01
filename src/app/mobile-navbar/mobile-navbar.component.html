@@ -8,7 +8,7 @@
   <div>
     <ul class="nav">
       <li class="nav-item right-5">
-        <button mat-button class="nav-link" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        <button mat-button routerLink="/notifications" class="nav-link" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           <img src="../../assets/imgs/icons/notification-white.png" width="20px" height="20px">
           <div id="signalPoint"><i class="fas fa-circle"></i></div>
         </button>
@@ -17,25 +17,24 @@
   </div>
 </nav>
 
-
-
-
-
-
+<div class="modal fade" id="modalPublish" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+  <app-mobile-publications-modal></app-mobile-publications-modal>
+</div>
 <div class="container fixed-bottom mobile-navbar nvbr-bottom">
   <div class="row nav-row">
-    <div class="d-flex items-col justify-content-center align-items-center">
-      <button class="go-home"></button>
+    <div routerLink="/home" class="d-flex items-col justify-content-center align-items-center">
+      <img src="../../assets/imgs/icons/home-black.png" width="25" height="25">
     </div>
-    <div class="d-flex items-col justify-content-center align-items-center">
+    <div routerLink="/world" class="d-flex items-col justify-content-center align-items-center">
       <img src="../../assets/imgs/icons/world.png" width="25" height="25">
     </div>
-    <div class="d-flex items-col justify-content-center align-items-center">
+    <div class="d-flex items-col justify-content-center align-items-center" data-toggle="modal" data-target="#modalPublish">
       <img src="../../assets/imgs/icons/add-black.png" width="25" height="25">
     </div>
-    <div class="d-flex items-col justify-content-center align-items-center">
+    <div routerLink="/chats" class="d-flex items-col justify-content-center align-items-center">
       <img src="../../assets/imgs/icons/chat.png" width="25" height="25">
-      <div class="point"><i class="fas fa-circle"></i></div>
+<!--      <div class="point" onclick="style='display:none;'"><i class="fas fa-circle"></i></div>-->
     </div>
     <div class="d-flex items-col justify-content-center align-items-center">
       <div class="avatar-bottom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></div>

@@ -124,3 +124,33 @@ padding:0px 15px 0px 15px;
 border-radius:3px;
 color:white;
 }
+
+
+#mobileshow{
+display:none;
+}
+
+@media screen and (max-width: 500px) {
+#mobileshow {
+display:block }
+}
+
+
+@media screen and (max-width: 500px) {
+#desktopshow {
+display:none; }
+}
+
+.comment{
+background:whitesmoke;
+font-size:14px;
+border-radius:5px;
+width:auto !important;
+min-width:auto;
+height:auto;
+max-width:240px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
+}

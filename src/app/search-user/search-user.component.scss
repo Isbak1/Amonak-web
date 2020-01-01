@@ -1,0 +1,59 @@
+.contain-page{
+width:100%;
+background:#d8e9f0;
+height:100vh;
+}
+
+
+#search-result{
+height:70vh;
+}
+
+#search-key{
+height:40vh;
+}
+
+
+.avatar{
+background-image: url('../../assets/imgs/woman.jpg');
+background-size: cover;
+height:60px;
+width:60px;
+}
+
+.add-button-style{
+Border:1px solid #435f7a;
+outline:none;
+border-radius:4px;
+height:35px;
+width:100px;
+color:#435f7a;
+background:none;
+position:absolute;
+right:20px;
+}
+
+
+.add-button-style:hover{
+background:#435f7a;
+border:none;
+color:white;
+}
+
+
+#frame {
+  min-height: calc(100% - 93px);
+  max-height: calc(520px - 93px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#frame::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+#frame::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+

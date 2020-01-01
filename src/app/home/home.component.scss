@@ -179,9 +179,24 @@ display:none; }
 display:none; }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 750px) {
 #desktop-discuss-shortcut {
 display:none; }
+}
+
+
+@media screen and (max-width: 750px) {
+.desktop-show {
+display:none; }
+}
+
+.mobile-show{
+display:none;
+}
+
+@media screen and (max-width: 750px) {
+.mobile-show {
+display:block; }
 }
 
 

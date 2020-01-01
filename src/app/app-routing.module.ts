@@ -13,6 +13,15 @@ import {PostManagementComponent} from "./post-management/post-management.compone
 import {SellManagementComponent} from "./sell-management/sell-management.component";
 import {AlertManagementComponent} from "./alert-management/alert-management.component";
 import {DeliveryComponent} from "./delivery/delivery.component";
+import {NotificationComponent} from "./notification/notification.component";
+import {WorldComponent} from "./world/world.component";
+import {MessageComponent} from "./message/message.component";
+import {MobileInboxComponent} from "./mobile-inbox/mobile-inbox.component";
+import {MessageWebComponent} from "./message-web/message-web.component";
+import {SearchUserComponent} from "./search-user/search-user.component";
+import {MobilePostFormComponent} from "./mobile-post-form/mobile-post-form.component";
+import {MobileSellFormComponent} from "./mobile-sell-form/mobile-sell-form.component";
+import {MobileAlertFormComponent} from "./mobile-alert-form/mobile-alert-form.component";
 
 
 const routes: Routes = [
@@ -21,7 +30,7 @@ const routes: Routes = [
   { path: 'reset', component: ResetComponent },
   // { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
   { path: 'home', component: HomeComponent },
-  { path: 'profil', component: ProfilComponent },
+  { path: 'profile', component: ProfilComponent },
   { path: 'discussionShortcut', component: DiscussionShortcutComponent },
   { path: 'edit', component: EditComponent },
   { path: 'editForm', component: EditFormComponent },
@@ -31,6 +40,15 @@ const routes: Routes = [
   { path: 'sell', component: SellManagementComponent },
   { path: 'alert', component: AlertManagementComponent },
   { path: 'delivery', component: DeliveryComponent },
+  { path: 'notifications', component: NotificationComponent },
+  { path: 'world', component: WorldComponent },
+  { path: 'chats', component: MessageComponent },
+  { path: 'inbox', component: MobileInboxComponent },
+  { path: 'amsterne', component: MessageWebComponent },
+  { path: 'search', component: SearchUserComponent },
+  { path: 'post-form', component: MobilePostFormComponent },
+  { path: 'sell-form', component: MobileSellFormComponent },
+  { path: 'alert-form', component: MobileAlertFormComponent },
   { path: '**', redirectTo: '/login', pathMatch: 'full'}
 ];
 

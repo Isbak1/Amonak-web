@@ -1,0 +1,88 @@
+.nvbr-bottom{
+background-color: white;
+padding:0px;
+height:45px !important;
+box-shadow:1px 0px 1px 0px gray;
+}
+
+.nav-row{
+padding-top:0px;
+padding-bottom:0px;
+padding-left:15px;
+padding-right:15px;
+height:100%;
+}
+
+
+.avatar-bottom{
+background:url("../../assets/imgs/man.jpg");
+background-size:cover;
+height:35px;
+width:35px;
+border-radius:50%;
+border:1.5px solid silver;
+}
+
+
+.items-col{
+height:100%;
+width:20%;
+outline:none;
+}
+
+
+.mobile-searchBar{
+    border: none;
+    border-radius: 3px;
+    width: 140px;
+    height: 25px;
+    outline: none !important;
+    background: #dbedf3;
+    padding-left:15px;
+    margin-left:20px;
+    font-size:13px;
+}
+
+.nav{
+padding-right:60px;
+}
+
+
+#signalPoint{
+    font-size: 5px;
+    text-align: center;
+    color: red;
+    margin-top:-15px;
+    margin-bottom:-15px;
+    padding:0px;
+    outline:none;
+}
+
+
+.dropdown-menu{
+margin-bottom:4px;
+}
+
+
+.point{
+    font-size: 6px;
+    text-align: center;
+    color: red;
+    margin-top:-9px;
+    margin-left:13px;
+    padding:0px;
+    outline:none;
+    position:absolute;
+}
+
+
+.important{
+font-size:14px;
+color:#283149;
+}
+
+
+.right-5{
+margin-right:-40px;
+}
+

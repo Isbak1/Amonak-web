@@ -101,6 +101,19 @@ import { WindowWorldComponent } from './window-world/window-world.component';
 import { WindowPublishComponent } from './window-publish/window-publish.component';
 import { MobileNavbarComponent } from './mobile-navbar/mobile-navbar.component';
 import { MoreAvatarDropdownComponent } from './more-avatar-dropdown/more-avatar-dropdown.component';
+import { NotificationComponent } from './notification/notification.component';
+import { MessageComponent } from './message/message.component';
+import { WorldComponent } from './world/world.component';
+import { WorldNavigationComponent } from './world-navigation/world-navigation.component';
+import { WorldBodyComponent } from './world-body/world-body.component';
+import { MobileInboxComponent } from './mobile-inbox/mobile-inbox.component';
+import { MessageWebComponent } from './message-web/message-web.component';
+import { SearchUserComponent } from './search-user/search-user.component';
+import { MobileNavbarBottomComponent } from './mobile-navbar-bottom/mobile-navbar-bottom.component';
+import { MobilePostFormComponent } from './mobile-post-form/mobile-post-form.component';
+import { MobileSellFormComponent } from './mobile-sell-form/mobile-sell-form.component';
+import { MobileAlertFormComponent } from './mobile-alert-form/mobile-alert-form.component';
+import { MobilePublicationsModalComponent } from './mobile-publications-modal/mobile-publications-modal.component';
 
 
 @NgModule({
@@ -200,6 +213,19 @@ import { MoreAvatarDropdownComponent } from './more-avatar-dropdown/more-avatar-
     WindowPublishComponent,
     MobileNavbarComponent,
     MoreAvatarDropdownComponent,
+    NotificationComponent,
+    MessageComponent,
+    WorldComponent,
+    WorldNavigationComponent,
+    WorldBodyComponent,
+    MobileInboxComponent,
+    MessageWebComponent,
+    SearchUserComponent,
+    MobileNavbarBottomComponent,
+    MobilePostFormComponent,
+    MobileSellFormComponent,
+    MobileAlertFormComponent,
+    MobilePublicationsModalComponent,
 
   ],
 
