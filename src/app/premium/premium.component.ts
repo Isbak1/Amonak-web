@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PremiumComponent implements OnInit {
 
+  fragment: string = null;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  show($event){
+    this.fragment = $event;
+    // console.log($event);
+    console.log(this.fragment)
   }
 
 }

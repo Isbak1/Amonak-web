@@ -4,11 +4,12 @@
 <mat-card class="container contain-page padding-l">
   <div class="row padding-l">
     <div class="col-md-2 col-sm-2 padding-l">
-      <app-navbar-pr class="position-fixed"></app-navbar-pr>
+      <app-navbar-pr class="position-fixed" (fragment)="show($event)"></app-navbar-pr>
     </div>
-    <div class="col-md-10 col-sm-10">
-      <app-info-pr id="info"></app-info-pr>
-      <app-get-premium id="access"></app-get-premium>
+    <div class="col-md-10 col-sm-10" [ngSwitch]="fragment">
+      <!-- <app-info-pr id="info" *ngSwitchCase="'info'"></app-info-pr> -->
+      <app-info-pr id="info" *ngSwitchDefault></app-info-pr>
+      <app-get-premium id="access" *ngSwitchCase="'access'"></app-get-premium>
     </div>
   </div>
 </mat-card>
