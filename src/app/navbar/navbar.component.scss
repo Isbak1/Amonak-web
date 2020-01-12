@@ -1,7 +1,22 @@
+#mobileshow {
+visibility:hidden;
+}
+
+@media screen and (max-width: 500px) {
+#mobileshow {
+visibility:visible }
+}
+
+
+@media screen and (max-width: 500px) {
+#desktop-show {
+display:none; }
+}
+
 .nvbr{
   background-color: #283149;
   padding: 9px 0px 9px 0px ;
-  height:70px;
+  height:64px;
 }
 
 .nvbr li a{
@@ -13,12 +28,24 @@
     border: none;
     border-radius: 3px;
     width: 350px;
-    height: 32px;
+    height: 29px;
     outline: none !important;
     background: #dbedf3;
     padding-left:15px;
     margin-left:40px;
     font-size:14px;
+}
+
+.mobile-searchBar{
+    border: none;
+    border-radius: 3px;
+    width: 140px;
+    height: 25px;
+    outline: none !important;
+    background: #dbedf3;
+    padding-left:15px;
+    margin-left:20px;
+    font-size:13px;
 }
 
 .nav{
@@ -115,6 +142,16 @@ background:whitesmoke;
 background:whitesmoke;
 }
 
+#signalPoint{
+    font-size: 5px;
+    text-align: center;
+    color: red;
+    margin-top:-15px;
+    margin-bottom:-15px;
+    padding:0px;
+    outline:none;
+}
+
 #signalPoint1{
     font-size: 5px;
     text-align: center;
@@ -191,33 +228,14 @@ font-size:13px;
 }
 
 
-.more-avatar{
-width:30px;
-height:30px;
-margin-top:-5px;
+
+
+
+.mobile-navbar{
+height:60px
 }
 
-.more-profil{
-background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-background-size: cover;
-}
 
-.more-premium{
-background-image: url('../../assets/imgs/premium.png');
-background-size: cover;
-}
-
-.more-publicity{
-background-image: url('../../assets/imgs/ads.png');
-background-size: cover;
-}
-
-.more-delivery{
-background-image: url('../../assets/imgs/delivery.png');
-background-size: cover;
-}
-
-.more-edit{
-background-image: url('../../assets/imgs/setting.png');
-background-size: cover;
+.right-5{
+margin-right:-40px;
 }

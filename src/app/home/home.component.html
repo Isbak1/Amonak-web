@@ -18,36 +18,88 @@
 
 
 
-  <div class="container contain-page">
+  <div class="container contain-page mobile-padding-0">
     <div class="row padding-160">
-      <div class="col-12 col-md-3 col-sm-3 padding-20">
-        <app-home-left></app-home-left>
+      <div class="col-12 col-md-3 col-sm-3 padding-20" id="desktop-left">
+        <app-home-left class="position-fixed"></app-home-left>
       </div>
 
-      <div class="col-12 col-md-6" >
+      <div class="col-12 col-md-6 mobile-padding-0">
         <div class="row d-flex justify-content-center pub-icons-row">
-          <div class="col-3 p-4 pub-icon text-center d-flex justify-content-center">
-            <a href="#" class="pub-link" data-toggle="modal" data-target="#modalPost">
-              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/pen-post.png" width="40px" height="40px"></div>
+          <div class="col-3 p-4 pub-icon height-mobile text-center d-flex justify-content-center replies">
+            <a href="#" class="pub-link desktop-show" data-toggle="modal" data-target="#modalPost">
+              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/pen-post.png" width="35px" height="35px" class="publish-icon"></div>
+              <div class="subtitle">Post</div>
+            </a>
+            <a routerLink="/post-form" class="pub-link mobile-show">
+              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/pen-post.png" width="40px" height="40px" class="publish-icon"></div>
               <div class="subtitle">Post</div>
             </a>
           </div>
-          <div class="col-3 p-4 pub-icon text-center d-flex justify-content-center">
-            <a href="#" class="pub-link" data-toggle="modal" data-target="#modalSell">
-              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/basket-sell.png" width="40px" height="40px"></div>
+          <div class="col-3 p-4 pub-icon height-mobile text-center d-flex justify-content-center replies">
+            <a href="#" class="pub-link desktop-show" data-toggle="modal" data-target="#modalSell">
+              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/basket-sell.png" width="35px" height="35px" class="publish-icon"></div>
+              <div class="subtitle">Sell</div>
+            </a>
+            <a routerLink="/sell-form" class="pub-link mobile-show">
+              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/basket-sell.png" width="40px" height="40px" class="publish-icon"></div>
               <div class="subtitle">Sell</div>
             </a>
           </div>
-          <div class="col-3 p-4 pub-icon text-center d-flex justify-content-center">
-            <a href="#" class="pub-link" data-toggle="modal" data-target="#modalAlert">
-              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/megaphone.png" width="40px" height="40px"></div>
+          <div class="col-3 p-4 pub-icon height-mobile text-center d-flex justify-content-center replies">
+            <a class="pub-link desktop-show" data-toggle="modal" data-target="#modalAlert">
+              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/megaphone.png" width="35px" height="35px" class="publish-icon"></div>
               <div class="subtitle">Alert</div>
             </a>
+            <a routerLink="/alert-form" class="pub-link mobile-show">
+              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/megaphone.png" width="40px" height="40px" class="publish-icon"></div>
+              <div class="subtitle">Alert</div>
+            </a>
+          </div>
+          <div class="col-12 stories-row" id="mobile-stories">
+            <font class="stories-font">Stories</font>
+            <div class="col-md-12 col-sm-12 d-flex justify-content-start align-items-center storiesContain">
+              <div class="hover01">
+                <button class="story-btn">
+                  <div>
+                    <figure><div mat-card-avatar class="storybull"><font class="create-story"><i class="material-icons">album</i></font></div></figure>
+                  </div>
+                </button>
+              </div>
+              <div class="hover01">
+                <button class="story-btn">
+                  <div>
+                    <figure><div mat-card-avatar class="storybull"></div></figure>
+                  </div>
+                </button>
+              </div>
+              <div class="hover01">
+                <button class="story-btn">
+                  <div>
+                    <figure><div mat-card-avatar class="storybull"></div></figure>
+                  </div>
+                </button>
+              </div>
+              <div class="hover01">
+                <button class="story-btn">
+                  <div>
+                    <figure><div mat-card-avatar class="storybull"></div></figure>
+                  </div>
+                </button>
+              </div>
+              <div class="hover01">
+                <button class="story-btn">
+                  <div>
+                    <figure><div mat-card-avatar class="storybull"></div></figure>
+                  </div>
+                </button>
+              </div>
+            </div>
           </div>
           <app-news-fil></app-news-fil>
         </div>
       </div>
-      <div class="col-12 col-md-3">
+      <div class="col-12 col-md-3" id="desktop-right">
         <div class="container-fluid padding-0">
           <div class="row">
             <div class="col-12 col-md-10 col-sm-10 d-flex justify-content-start padding-0">
@@ -86,7 +138,7 @@
           </div>
         </div>
         <div class="row contain-discuss-space" id="discussionShortcut">
-          <app-discussion-shortcut class="fixed-bottom"></app-discussion-shortcut>
+          <app-discussion-shortcut id="desktop-discuss-shortcut" class="fixed-bottom"></app-discussion-shortcut>
         </div>
       </div>
     </div>

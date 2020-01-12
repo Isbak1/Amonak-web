@@ -11,6 +11,8 @@ width:60px;
 height:60px;
 }
 
+
+
 .pub-icons-row{
 height:auto;
 margin-bottom:20px;
@@ -21,7 +23,7 @@ margin-top:-25px;
 }
 
 .contain-page{
-margin-top:70px;
+margin-top:10px;
 }
 
 
@@ -119,6 +121,10 @@ transition:0.5s;
 }
 
 
+app-home-left{
+margin-top:-25px;
+}
+
 
 .new-msg-signal{
 font-size:6px;
@@ -162,3 +168,136 @@ width:100%;
 height:100px;
 padding:0px;
 }
+
+@media screen and (max-width: 500px) {
+#desktop-left {
+display:none; }
+}
+
+@media screen and (max-width: 500px) {
+#desktop-right {
+display:none; }
+}
+
+@media screen and (max-width: 750px) {
+#desktop-discuss-shortcut {
+display:none; }
+}
+
+
+@media screen and (max-width: 750px) {
+.desktop-show {
+display:none; }
+}
+
+.mobile-show{
+display:none;
+}
+
+@media screen and (max-width: 750px) {
+.mobile-show {
+display:block; }
+}
+
+
+.storybull{
+background-image: url('../../assets/imgs/portsaid.jpg');
+background-size: cover;
+width:46px;
+height:46px;
+}
+
+
+.stories-font{
+height-line:10px;
+color:283149;
+font-size:14px;
+padding-left:0px;
+margin-top:10px;
+padding-bottom:0px;
+margin-bottom:0px;
+}
+
+
+.story-btn{
+border:0px;
+background:none;
+outline:none;
+padding:3px;
+}
+
+
+.create-story{
+position:absolute;
+right:-9px;
+bottom:-14px;
+color:#283149;
+font-size:15px;
+}
+
+.hover01{
+margin-top:-5px;
+z-index:1;
+}
+
+.hover01 figure div {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover div {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+
+
+.storiesContain{
+    margin-top: 0px;
+    padding: 10px 0px;
+}
+
+.stories-row{
+  border-top:1px solid silver;
+  width:230px;
+}
+
+
+
+@media screen and (max-width: 500px) {
+.mobile-padding-0 {
+padding-left:0px;
+padding-right:0px;
+}
+}
+
+#mobile-stories{
+display:none;
+}
+
+@media screen and (max-width: 500px) {
+#mobile-stories{
+display:block }
+}
+
+@media screen and (max-width: 500px) {
+.publish-icon{
+height:25px !important;
+width:25px !important;}
+}
+
+
+
+@media screen and (max-width: 500px) {
+.img-pub{
+height:50px !important;
+width:50px !important;}
+}
+
+@media screen and (max-width: 500px) {
+.height-mobile{
+padding-top:0px !important;
+padding-bottom:10px !important;}
+}
+

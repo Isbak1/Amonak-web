@@ -82,6 +82,38 @@ import { EditPostOptionComponent } from './edit-post-option/edit-post-option.com
 import { ProfilPersoAffichageComponent } from './profil-perso-affichage/profil-perso-affichage.component';
 import { ProfilPersoComponent } from './profil-perso/profil-perso.component';
 import { EditNavComponent } from './edit-nav/edit-nav.component';
+import { EditPublicitiesComponent } from './edit-publicities/edit-publicities.component';
+import { EditDeliveriesComponent } from './edit-deliveries/edit-deliveries.component';
+import { EditAmonakComponent } from './edit-amonak/edit-amonak.component';
+import { EditDocumentComponent } from './edit-document/edit-document.component';
+import { EditPubPremiumComponent } from './edit-pub-premium/edit-pub-premium.component';
+import { EditPubSponsoringComponent } from './edit-pub-sponsoring/edit-pub-sponsoring.component';
+import { PostPremiumComponent } from './post-premium/post-premium.component';
+import { PostPublicityComponent } from './post-publicity/post-publicity.component';
+import { SellPublicityComponent } from './sell-publicity/sell-publicity.component';
+import { AlertPublicityComponent } from './alert-publicity/alert-publicity.component';
+import { SponsoringPublicationComponent } from './sponsoring-publication/sponsoring-publication.component';
+import { EditContactComponent } from './edit-contact/edit-contact.component';
+import { WindowNotificationsComponent } from './window-notifications/window-notifications.component';
+import { WindowMessagesComponent } from './window-messages/window-messages.component';
+import { WindowMoreComponent } from './window-more/window-more.component';
+import { WindowWorldComponent } from './window-world/window-world.component';
+import { WindowPublishComponent } from './window-publish/window-publish.component';
+import { MobileNavbarComponent } from './mobile-navbar/mobile-navbar.component';
+import { MoreAvatarDropdownComponent } from './more-avatar-dropdown/more-avatar-dropdown.component';
+import { NotificationComponent } from './notification/notification.component';
+import { MessageComponent } from './message/message.component';
+import { WorldComponent } from './world/world.component';
+import { WorldNavigationComponent } from './world-navigation/world-navigation.component';
+import { WorldBodyComponent } from './world-body/world-body.component';
+import { MobileInboxComponent } from './mobile-inbox/mobile-inbox.component';
+import { MessageWebComponent } from './message-web/message-web.component';
+import { SearchUserComponent } from './search-user/search-user.component';
+import { MobileNavbarBottomComponent } from './mobile-navbar-bottom/mobile-navbar-bottom.component';
+import { MobilePostFormComponent } from './mobile-post-form/mobile-post-form.component';
+import { MobileSellFormComponent } from './mobile-sell-form/mobile-sell-form.component';
+import { MobileAlertFormComponent } from './mobile-alert-form/mobile-alert-form.component';
+import { MobilePublicationsModalComponent } from './mobile-publications-modal/mobile-publications-modal.component';
 
 
 @NgModule({
@@ -162,6 +194,38 @@ import { EditNavComponent } from './edit-nav/edit-nav.component';
     ProfilPersoAffichageComponent,
     ProfilPersoComponent,
     EditNavComponent,
+    EditPublicitiesComponent,
+    EditDeliveriesComponent,
+    EditAmonakComponent,
+    EditDocumentComponent,
+    EditPubPremiumComponent,
+    EditPubSponsoringComponent,
+    PostPremiumComponent,
+    PostPublicityComponent,
+    SellPublicityComponent,
+    AlertPublicityComponent,
+    SponsoringPublicationComponent,
+    EditContactComponent,
+    WindowNotificationsComponent,
+    WindowMessagesComponent,
+    WindowMoreComponent,
+    WindowWorldComponent,
+    WindowPublishComponent,
+    MobileNavbarComponent,
+    MoreAvatarDropdownComponent,
+    NotificationComponent,
+    MessageComponent,
+    WorldComponent,
+    WorldNavigationComponent,
+    WorldBodyComponent,
+    MobileInboxComponent,
+    MessageWebComponent,
+    SearchUserComponent,
+    MobileNavbarBottomComponent,
+    MobilePostFormComponent,
+    MobileSellFormComponent,
+    MobileAlertFormComponent,
+    MobilePublicationsModalComponent,
 
   ],
 

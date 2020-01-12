@@ -14,8 +14,8 @@ padding:0px;
 
 .dropdown-menu{
 border:1px solid silver;
-margin-left:-120px;
-width:190px;
+margin-left:-103px;
+width:100px;
 }
 
 .option-icon{
@@ -32,7 +32,7 @@ position:absolute;
     border-right: 9px solid rgba(0, 0, 0, 0);
     content: "";
     display: inline-block;
-    right: 25px;
+    right: 15px;
     position: absolute;
     top: -8px;
 }
@@ -43,7 +43,7 @@ position:absolute;
     border-right: 9px solid rgba(0, 0, 0, 0);
     content: "";
     display: inline-block;
-    right: 25px;
+    right: 15px;
     position: absolute;
     top: -7px;
   }
@@ -90,7 +90,7 @@ border-top:0px;
 border-right:0px;
 border-left:0px;
 font-size:14px;
-width:100%;
+width:250px;
 }
 
 
@@ -110,4 +110,40 @@ margin-left:3px;
 
 mat-card-title{
 font-size:15px !important;
+}
+
+#mobileshow{
+display:none;
+}
+
+@media screen and (max-width: 500px) {
+#mobileshow {
+display:block }
+}
+
+
+@media screen and (max-width: 500px) {
+#desktopshow {
+display:none; }
+}
+
+
+.comment-avatar{
+width:35px;
+height:35px;
+border-radius:50%;
+}
+
+.comment{
+background:whitesmoke;
+font-size:14px;
+border-radius:5px;
+width:auto !important;
+min-width:auto;
+height:auto;
+max-width:240px;
+padding-top:10px;
+padding-bottom:10px;
+padding-left:10px;
+padding-right:10px;
 }

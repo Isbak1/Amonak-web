@@ -2,12 +2,16 @@
 <div class="container-fluid edition">
   <div class="row">
     <div class="col-12 col-md-3 col-sm-3 navigation">
-    <app-edit-nav></app-edit-nav>
+    <app-edit-nav (fragment)="show($event)"></app-edit-nav>
     </div>
-    <div class="col-12 col-md-9 col-sm-9 contain mt-4">
-      <app-edit-form id="edit_form"></app-edit-form>
-      <app-blocking id="blocking"></app-blocking>
-      <app-edit-publication id="publications"></app-edit-publication>
+    <div class="col-12 col-md-9 col-sm-9 contain mt-4" [ngSwitch]="fragment">
+      <app-edit-form id="edit_form" *ngSwitchDefault></app-edit-form>
+      <app-blocking id="blocking" *ngSwitchCase="'blocking'"></app-blocking>
+      <app-edit-publication id="publications" *ngSwitchCase="'publications'"></app-edit-publication>
+      <app-edit-publicities id="publicities" *ngSwitchCase="'publicities'"></app-edit-publicities>
+      <app-edit-deliveries id="deliveries" *ngSwitchCase="'deliveries'"></app-edit-deliveries>
+      <app-edit-contact id="contact" *ngSwitchCase="'contact'"></app-edit-contact>
+      <app-edit-document id="doc" *ngSwitchCase="'doc'"></app-edit-document>
     </div>
   </div>
 </div>

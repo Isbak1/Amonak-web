@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-navbar-pr',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarPrComponent implements OnInit {
 
-  constructor() { }
+  @Output() fragment = new EventEmitter<string>();
+
+  constructor(private route: ActivatedRoute) { }
 
   ngOnInit() {
+    console.log(this.route.snapshot.fragment);
+    this.route.fragment.subscribe(
+      (fragments) => {
+        this.fragment.emit(fragments);
+        // console.log(fragments);
+      }
+    );
   }
 
 }
