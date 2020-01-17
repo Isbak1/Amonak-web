@@ -114,6 +114,12 @@ import { MobilePostFormComponent } from './mobile-post-form/mobile-post-form.com
 import { MobileSellFormComponent } from './mobile-sell-form/mobile-sell-form.component';
 import { MobileAlertFormComponent } from './mobile-alert-form/mobile-alert-form.component';
 import { MobilePublicationsModalComponent } from './mobile-publications-modal/mobile-publications-modal.component';
+import { BuySpaceComponent } from './buy-space/buy-space.component';
+import { PaymentFormComponent } from './payment-form/payment-form.component';
+import { BookingFormComponent } from './booking-form/booking-form.component';
+import { MbPpAdFormComponent } from './mb-pp-ad-form/mb-pp-ad-form.component';
+import { MbPpSellFormComponent } from './mb-pp-sell-form/mb-pp-sell-form.component';
+import { MbPpAlertFormComponent } from './mb-pp-alert-form/mb-pp-alert-form.component';
 
 
 @NgModule({
@@ -226,6 +232,12 @@ import { MobilePublicationsModalComponent } from './mobile-publications-modal/mo
     MobileSellFormComponent,
     MobileAlertFormComponent,
     MobilePublicationsModalComponent,
+    BuySpaceComponent,
+    PaymentFormComponent,
+    BookingFormComponent,
+    MbPpAdFormComponent,
+    MbPpSellFormComponent,
+    MbPpAlertFormComponent,
 
   ],
 

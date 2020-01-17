@@ -1,10 +1,13 @@
 .profil-page{
-  background-color: #dbedf3;
+  background-color: #E6ECF0;
   height: auto;
+  min-height:100vh;
   width: 100%;
   overflow-x:hidden !important;
   overflow-y:hidden;
+  padding-bottom:100px;
 }
+
 
 
 .quick-profil-row{
@@ -375,3 +378,202 @@ visibility:visible;
 visibility:hidden;
 }
 
+@media screen and (max-width: 800px) {
+  #accordionBio{
+  display:none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #card-accordion{
+  display:none;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .desktopshow{
+  display:block;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .desktopshow{
+  display:none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #mobileshow{
+  display:block;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  #mobileshow{
+  display:none;
+  }
+}
+
+
+.mb-nav{
+background:#e0e0ec;
+}
+
+
+#post-navbar .nav-link:focus{
+background:#e0e0ec;
+}
+
+.nav-link{
+outline:none !important;
+}
+
+.mb-bio-btn{
+border-radius:7px;
+color:#dcdde1;
+background:#283149;
+border:0px;
+width:auto;
+padding-left:50px;
+padding-right:50px;
+padding-top:4px;
+padding-bottom:4px;
+}
+
+
+.mb-edit-btn{
+border-radius:7px;
+padding-top:0px !important;
+padding-bottom:0px !important;
+color:gray;
+font-family: 'Muli', sans-serif;
+background-color:#c8d6e5;
+width:100%;
+border:0px;
+outline:none !important;
+}
+
+
+.mb-stories-btn{
+border-radius:7px;
+color:#dcdde1;
+background:#283149;
+border:0px;
+width:auto;
+padding-left:50px;
+padding-right:50px;
+padding-top:4px;
+padding-bottom:4px;
+}
+
+.mb-storieBull{
+    margin: 3px;
+    border-radius: 50%;
+    height: 55px;
+    width:55px;
+    border: 1px solid whitesmoke;
+}
+
+
+
+#storiesFrame {
+  min-width: calc(90% - 50px);
+  max-width: calc(450px - 50px);
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+#storiesFrame::-webkit-scrollbar {
+  height:2px;
+  background: transparent;
+}
+#storiesFrame::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.frame-row{
+width:1000px !important;
+max-width:auto !important;
+}
+
+
+.display-none{
+display:none !important;
+}
+
+
+.mb-option-btn{
+border:0px;
+background:none !important;
+outline:none !important;
+height:33px;
+margin-top:0px;
+position:absolute;
+right:15%;
+}
+
+.dropdown-menu{
+border:1px solid silver;
+margin-left:-103px;
+width:100px;
+}
+
+.option-icon{
+font-size:20px;
+right:0px;
+color: grey;
+position:absolute;
+}
+
+
+.dropdown-menu::before {
+    border-bottom: 9px solid rgba(0, 0, 0, 0.2);
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    right: 15px;
+    position: absolute;
+    top: -8px;
+}
+  .dropdown-menu::after {
+    border-bottom: 8px solid #FFFFFF;
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    content: "";
+    display: inline-block;
+    right: 15px;
+    position: absolute;
+    top: -7px;
+  }
+
+  #option-biography-icon{
+  border-radius: 50%;
+  background:url("../../assets/imgs/man.jpg");
+  background-size:cover;
+  width:30px;
+  height:30px;
+  }
+
+  #option-stories-icon{
+    border-radius: 50%;
+    background:url("../../assets/imgs/man.jpg");
+    background-size:cover;
+    width:30px;
+    height:30px;
+    }
+
+
+.create-story{
+position:absolute;
+right:-9px;
+bottom:-14px;
+color:#283149;
+}
+
+.add-story-icon{
+position:absolute;
+margin-top:20px;
+margin-left:20px;
+}

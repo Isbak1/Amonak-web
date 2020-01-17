@@ -45,3 +45,27 @@ color:#283149;
 font-size:14px;
 color:#283149;
 }
+
+button{
+background:none;
+border:none !important;
+outline:none;
+width:100%;
+}
+
+@media screen and (min-width: 800px) {
+#frame {
+  min-height: calc(100% - 0vh);
+  max-height: calc(70vh - 0vh);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#frame::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+#frame::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+}

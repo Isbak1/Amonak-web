@@ -30,7 +30,7 @@ display:none; }
     width: 350px;
     height: 29px;
     outline: none !important;
-    background: #dbedf3;
+    background: #E6ECF0;
     padding-left:15px;
     margin-left:40px;
     font-size:14px;
@@ -42,7 +42,7 @@ display:none; }
     width: 140px;
     height: 25px;
     outline: none !important;
-    background: #dbedf3;
+    background: #E6ECF0;
     padding-left:15px;
     margin-left:20px;
     font-size:13px;
@@ -88,13 +88,12 @@ outline:none;
 .dropdown-menu{
 border:1px solid silver;
 width:370px;
-height:455px;
-max-height:455px;
+height:auto;
 position:absolute;
 }
 
 .message-dropdown{
-margin-left:780px;
+margin-left:779px;
 }
 
 .notification-dropdown{
@@ -102,7 +101,7 @@ margin-left:843px;
 }
 
 .more-dropdown{
-margin-left:1028px;
+margin-left:1027px;
 width:250px !important;
 height:auto !important;
 }

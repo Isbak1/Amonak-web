@@ -1,4 +1,4 @@
-<div class="premium-page">
+<div class="premium-page" id="frame">
 <!--  <app-default-navbar></app-default-navbar> -->
   <app-navbar></app-navbar>
 <mat-card class="container contain-page padding-l">
@@ -13,4 +13,81 @@
     </div>
   </div>
 </mat-card>
+</div>
+
+
+<!-------------------------------------------------------------------------------------------->
+<!-----------------------------------MOBILE--------------------------------------------------->
+<div class="premium-page" id="mobileshow">
+  <app-mobile-navbar></app-mobile-navbar>
+  <div id="mb-nav-frame">
+    <div class="row d-flex justify-content-center mt-3 mb-frame-row pl-4">
+      <button class="btn-style">ABOUT</button>
+      <button class="btn-style">GET FOR FREE</button>
+    </div>
+  </div>
+  <mat-card class="mt-3 mb-5 pb-5 pt-4">
+    <mat-card-header>
+      <div class="row">
+        <div class="col-7 h5 d-flex align-items-center">About</div>
+        <div class="col-5"><img src="../../assets/imgs/prem.jpg" width="100%" height="auto"></div>
+      </div>
+    </mat-card-header>
+    <mat-card-content>
+      <ol>
+        <li>You can See the alert lists in all categories</li>
+        <li>You choose the visibility field of your publications. This visibility is valid for ten(10) days. After 10 days, it's valid just by your network.</li>
+        <li>Know who visit your profil, see your publication, watch your videos.</li>
+        <li>Program automatic answers for the first messages sent to you.</li>
+        <li>Choose to be add as a friend or be follow by users.</li>
+        <li>Compare the prices of a product in five(5) offers at the same time.</li>
+        <li>Your publications are visible by the visitors on the Amonak welcome page for ten(10) days.</li>
+      </ol>
+    </mat-card-content>
+    <mat-card-header>
+      <div class="row mt-3">
+        <div class="col-12 h5 d-flex align-items-center">Payment and more</div>
+      </div>
+    </mat-card-header>
+    <mat-card-content>
+      <ol>
+        <li>You benefit from three(3) months free.</li>
+        <li>You will pay 12$ per month after the free period.</li>
+        <li>Program automatic answers for the first messages sent to you.</li>
+      </ol>
+    </mat-card-content>
+  </mat-card>
+  <mat-card class="mb-5 mt-3 pb-5 pt-4">
+    <mat-card-header>
+      <div class="row">
+        <div class="col-7 h5 d-flex align-items-center">Get your premium access</div>
+        <div class="col-5"><img src="../../assets/imgs/get-pre.jpg" width="100%" height="auto"></div>
+      </div>
+    </mat-card-header>
+    <mat-card-content>
+      <form>
+        <div class="row">
+          <div class="col-12">
+            <input class="premium-input card-number" type="number" maxlength="16" placeholder="Card number">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <input class="premium-input expiration" type="number" maxlength="7" placeholder="Expiration date mm/aaaa">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <input class="premium-input card-number" type="number" maxlength="4" placeholder="CVC code">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 d-flex justify-content-end">
+            <button class="submit-style">Get your pass</button>
+          </div>
+        </div>
+
+      </form>
+    </mat-card-content>
+  </mat-card>
 </div>

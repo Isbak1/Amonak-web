@@ -46,12 +46,12 @@
             <div class="md-form mb-1">
               <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                  <a class="pub-set nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Visibility size</a>
-                  <a class="pub-set nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Target type</a>
+                  <a class="pub-set nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#targetSize" role="tab" aria-controls="nav-home" aria-selected="true">Visibility size</a>
+                  <a class="pub-set nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#targetType" role="tab" aria-controls="nav-profile" aria-selected="false">Target type</a>
                 </div>
               </nav>
               <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div class="tab-pane fade show active" id="targetSize" role="tabpanel" aria-labelledby="nav-home-tab">
                   <mat-form-field class="li-link">
                     <select class="nav-link" matNativeControl>
                       <option class="size-option" value="english">AFRICA</option>
@@ -62,9 +62,8 @@
                       <option class="size-option" value="french">OCEANIA</option>
                     </select>
                   </mat-form-field>
-
                 </div>
-                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                <div class="tab-pane fade" id="targetType" role="tabpanel" aria-labelledby="nav-profile-tab">
                   <div class="container-fluid">
                     <div class="row">
                       <div class="col-md-6">
@@ -142,7 +141,7 @@
       <div class="container validation-container">
         <div class="row validation-row">
           <div class="col-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-end align-items-center validation-col">
-            <button mat-button class="btn-valid-post" data-dismiss="modal">Valid</button>
+            <button mat-button class="btn-valid-post" data-dismiss="modal">Alert</button>
           </div>
         </div>
       </div>

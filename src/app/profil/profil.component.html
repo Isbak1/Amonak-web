@@ -1,3 +1,4 @@
+
 <div class="profil-page">
   <app-navbar></app-navbar>
 
@@ -8,13 +9,13 @@
   </div>
 
 
-
-  <div class="container-fluid d-flex justify-content-end">
-    <div class="row d-flex justify-content-center quick-profil-row">
-      <div class="col-12 col-md-12">
-        <mat-card class="row card-contain d-flex justify-content-center padding-0">
-          <mat-card-header class="col-md-12 col-sm-12 card-head d-flex justify-content-center padding-0">
-            <div class="container-fluid">
+  <!-------------------------------------DESKTOP------------------------------------>
+  <div class="container-fluid d-flex justify-content-end desktopshow">
+    <div  class="row d-flex justify-content-center quick-profil-row desktopshow">
+      <div class="col-12 col-md-12 desktopshow">
+        <mat-card class="row card-contain d-flex justify-content-center padding-0 desktopshow">
+          <mat-card-header class="col-md-12 col-sm-12 card-head d-flex justify-content-center padding-0 desktopshow">
+            <div class="container-fluid desktopshow">
               <div class="row mt-4">
                 <div class="col-12 col-md-5 col-sm-5 d-flex justify-content-end align-items-center">
                   <div class="user-avatar"></div>
@@ -39,7 +40,7 @@
         </mat-card>
         <div class="row dashbord-row mt-4">
           <div class="col-md-12 d-flex justify-content-center">
-            <ul class="snip1135">
+            <ul class="desktopshow snip1135">
               <li><a href="#" data-hover="Posts">Posts</a></li>
               <li><a href="#" data-hover="Purchases">Purchases</a></li>
               <li><a href="#" data-hover="Sales">Sales</a></li>
@@ -51,27 +52,19 @@
       </div>
     </div>
   </div>
-<!--  <div class="container-fluid d-flex justify-content-end">-->
-<!--    <div class="row d-flex justify-content-center rotor-row">-->
-<!--      <div class="col-md-auto rotor d-flex justify-content-center align-items-center" style="">-->
-<!--            <div class="hover01 column">-->
-<!--                <figure><img src="../../assets/imgs/echec.jpg" class="publication"/></figure>-->
-<!--            </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--  </div>-->
 
-  <div class="accordion acc-fix" id="accordionExample">
+
+  <div class="accordion acc-fix" id="accordionBio">
     <div class="card card-accordion col-md-12">
       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
       <div class="card-header titreS" id="headingOne">
             <a class="card-link text-head text-left" data-toggle="collapse" href="#collapseOne">
-              <div class="col-md-12"><font size="3" color="#dcdde1">BIOGRAPHY...</font></div>
+              <div class="col-md-12"><font size="4" color="#dcdde1">BIOGRAPHY...</font></div>
             </a>
       </div>
       </button>
 
-      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionBio">
         <div class="card-body">
           <div class="container-fluid containList">
             <div class="row info-row">
@@ -96,7 +89,7 @@
             </div>
             <div class="row info-row">
               <div class="">
-                <div><font class="row-title" size="2"><span id="row-title-icon5"><i class="fas fa-user-tie"></i></span>&nbsp;Job: </font></div><font class="info-result">Web Developer</font>
+                <div><font class="row-title" size="2"><span id="row-title-icon5"><i class="fas fa-user-tie"></i></span>&nbsp;Interest: </font></div><font class="info-result">Design and Tech</font>
               </div>
             </div>
             <div class="row close-row d-flex justify-content-center text-center">
@@ -108,15 +101,15 @@
         </div>
       </div>
     </div>
-    <div class="card card-accordion col-md-12">
+    <div class="card card-accordion col-md-12" id="card-accordion">
       <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
         <div class="card-header titreS2" id="headingTwo">
           <a class="card-link text-head text-left" data-toggle="collapse" href="#collapseTwo">
-            <div class="col-md-12" ><font size="3" color="#dcdde1">STORIES...</font></div>
+            <div class="col-md-12" ><font size="4" color="#dcdde1">STORIES...</font></div>
           </a>
         </div>
       </button>
-      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionBio">
         <div class="card-body">
           <div class="container-fluid containList">
             <div class="row stories-row">
@@ -150,43 +143,245 @@
     </div>
   </div>
 
-  <div class="container-fluid d-flex justify-content-end">
+  <div class="container-fluid d-flex justify-content-end desktopshow">
     <div class="row d-flex justify-content-end">
-      <div class="col-12 col-md-9 col-sm-9">
+      <div class="col-12 col-md-9 col-sm-9 desktopshow">
         <app-profil-post></app-profil-post>
       </div>
     </div>
   </div>
-  <div class="container-fluid d-flex justify-content-end">
+  <div class="container-fluid d-flex justify-content-end desktopshow">
     <div class="row d-flex justify-content-end">
-      <div class="col-12 col-md-9 col-sm-9">
+      <div class="col-12 col-md-9 col-sm-9 desktopshow">
         <app-profil-purchases></app-profil-purchases>
       </div>
     </div>
   </div>
-  <div class="container-fluid d-flex justify-content-end">
+  <div class="container-fluid d-flex justify-content-end desktopshow">
     <div class="row d-flex justify-content-end">
-      <div class="col-12 col-md-9 col-sm-9">
+      <div class="col-12 col-md-9 col-sm-9 desktopshow">
         <app-profil-sales></app-profil-sales>
       </div>
     </div>
   </div>
   <div class="container-fluid d-flex justify-content-end">
     <div class="row d-flex justify-content-end">
-      <div class="col-12 col-md-9 col-sm-9">
+      <div class="col-12 col-md-9 col-sm-9 desktopshow">
         <app-profil-alerts></app-profil-alerts>
       </div>
     </div>
   </div>
   <div class="container-fluid">
     <div class="row d-flex justify-content-end padding-0">
-      <div class="col-12 col-md-9 col-sm-9">
+      <div class="col-12 col-md-9 col-sm-9 desktopshow">
         <app-profil-relationships></app-profil-relationships>
       </div>
     </div>
   </div>
-  <button class="btn-perso-style" data-toggle="modal" data-target="#modalperso">
+  <button class="btn-perso-style desktopshow" data-toggle="modal" data-target="#modalperso">
     <img class="black" src="../../assets/imgs/icons/pen-black.png" width="25" height="25">
     <img class="white" src="../../assets/imgs/icons/pen-white.png" width="25" height="25">
   </button>
+
+
+
+
+
+  <!----------------------------------------MOBILE-------------------------------------->
+  <div class="container" id="mobileshow">
+    <div class="row mt-4">
+      <div class="col-12 d-flex justify-content-center">
+        <div class="user-avatar"></div>
+        <button mat-button class="mb-option-btn" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <img src="../../assets/imgs/icons/option.png" width="18px" height="18px">
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <div class="container">
+            <div class="row mb-2">
+              <div class="col-3">
+                <div id="option-biography-icon"></div>
+              </div>
+              <div class="col-9">
+                <font size="2">Biography</font>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3">
+                <div id="option-stories-icon">
+                  <img class="add-story-icon" src="../../assets/imgs/icons/short-black-c-add.png" width="17px">
+                </div>
+              </div>
+              <div class="col-9">
+                <font size="2">My stories</font>
+              </div>
+            </div>
+          </div>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12 d-flex justify-content-center">
+        <font class="h4">Joseph Terence Adai</font>
+      </div>
+    </div>
+    <div class="row ">
+      <div class="col-12 d-flex justify-content-center">
+        <font size="2" color="gray">Mode</font>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-12 d-flex justify-content-center p-0">
+        <ul class="nav  justify-content-center p-0 mb-nav" style="width:100%; ">
+          <li class="nav-item li-link" >
+            <button mat-button class="nav-link" type="button">
+              <font size="3">POSTS</font>
+            </button>
+          </li>
+          <li class="nav-item li-link" >
+            <button mat-button class="nav-link" type="button">
+              <font size="3">PURCHASES</font>
+            </button>
+          </li>
+          <li class="nav-item li-link" >
+            <button mat-button class="nav-link" type="button">
+              <font size="3">RELATIONSHIPS</font>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 mb-1 mt-4">
+        <button class="mb-stories-btn">STORIES</button>
+      </div>
+      <div class="col-12">
+        <div class="pl-2" id="storiesFrame">
+          <div class="row pl-2 frame-row">
+            <div class="col-auto pl-0 pr-0 d-flex align-items-center display-none">
+              <figure><font color="gray" size="3">Empty for now</font></figure>
+            </div>
+            <div class="col-auto pl-0 pr-0">
+              <figure><img src="../../assets/imgs/portsaid.jpg" class="mb-storieBull"/></figure>
+            </div>
+            <div class="col-auto pl-0 pr-0">
+              <figure><img src="../../assets/imgs/portsaid.jpg" class="mb-storieBull"/></figure>
+            </div>
+            <div class="col-auto pl-0 pr-0">
+              <figure><img src="../../assets/imgs/portsaid.jpg" class="mb-storieBull"/></figure>
+            </div>
+            <div class="col-auto pl-0 pr-0">
+              <figure><img src="../../assets/imgs/portsaid.jpg" class="mb-storieBull"/></figure>
+            </div>
+            <div class="col-auto pl-0 pr-0">
+              <figure><img src="../../assets/imgs/portsaid.jpg" class="mb-storieBull"/></figure>
+            </div>
+            <div class="col-auto pl-0 pr-0">
+              <figure><img src="../../assets/imgs/portsaid.jpg" class="mb-storieBull"/></figure>
+            </div>
+            <div class="col-auto pl-0 pr-0">
+              <figure><img src="../../assets/imgs/portsaid.jpg" class="mb-storieBull"/></figure>
+            </div>
+            <div class="col-auto pl-0 pr-0">
+              <figure><img src="../../assets/imgs/portsaid.jpg" class="mb-storieBull"/></figure>
+            </div>
+            <div class="col-auto pl-0 pr-0">
+              <figure><img src="../../assets/imgs/portsaid.jpg" class="mb-storieBull"/></figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-4">
+      <div class="col-12 mb-1">
+        <button class="mb-bio-btn">BIOGRAPHY</button>
+      </div>
+      <div class="col-12 mb-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12"><font size="2" color="gray">Studied at:</font></div>
+            <div class="col-12"><font size="4">Fst tunis El manar</font></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12"><font size="2" color="gray">Work at:</font></div>
+            <div class="col-12"><font size="4">Amonak</font></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12"><font size="2" color="gray">Current job:</font></div>
+            <div class="col-12"><font size="4">Web designer</font></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12"><font size="2" color="gray">Adress:</font></div>
+            <div class="col-12"><font size="4">Tunis wardia</font></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-12"><font size="2" color="gray">Interest:</font></div>
+            <div class="col-12"><font size="4">Art & Design</font></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 mb-1 mt-2">
+        <button routerLink="/edit" mat-button class="mb-edit-btn">EDIT</button>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-12 d-flex justify-content-center" id="posts-nav">
+        <ul class="nav justify-content-center p-0 posts-nav" style="width:100%;">
+          <li class="nav-item li-link">
+            <button mat-button class="nav-link" type="button">
+              <font size="3">Posts</font>
+            </button>
+          </li>
+          <li class="nav-item li-link">
+            <button mat-button class="nav-link" type="button">
+              <font size="3">Sales</font>
+            </button>
+          </li>
+          <li class="nav-item li-link" >
+            <button mat-button class="nav-link" type="button">
+              <font size="3">alerts</font>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row mt-5">
+     <div class="col-12 p-0">
+       <app-profil-post></app-profil-post>
+     </div>
+      <div class="col-12 p-0">
+        <app-profil-sales></app-profil-sales>
+      </div>
+      <div class="col-12 p-0">
+        <app-profil-alerts></app-profil-alerts>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <div class="col-12 p-0">
+        <app-profil-purchases></app-profil-purchases>
+      </div>
+    </div>
+    <div class="row p-0 mt-5">
+      <div class="col-12 p-0">
+        <app-profil-relationships></app-profil-relationships>
+      </div>
+    </div>
+  </div>
 </div>
+

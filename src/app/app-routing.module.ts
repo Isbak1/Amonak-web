@@ -22,6 +22,10 @@ import {SearchUserComponent} from "./search-user/search-user.component";
 import {MobilePostFormComponent} from "./mobile-post-form/mobile-post-form.component";
 import {MobileSellFormComponent} from "./mobile-sell-form/mobile-sell-form.component";
 import {MobileAlertFormComponent} from "./mobile-alert-form/mobile-alert-form.component";
+import {BuySpaceComponent} from "./buy-space/buy-space.component";
+import {MbPpAdFormComponent} from "./mb-pp-ad-form/mb-pp-ad-form.component";
+import {MbPpSellFormComponent} from "./mb-pp-sell-form/mb-pp-sell-form.component";
+import {MbPpAlertFormComponent} from "./mb-pp-alert-form/mb-pp-alert-form.component";
 
 
 const routes: Routes = [
@@ -49,6 +53,10 @@ const routes: Routes = [
   { path: 'post-form', component: MobilePostFormComponent },
   { path: 'sell-form', component: MobileSellFormComponent },
   { path: 'alert-form', component: MobileAlertFormComponent },
+  { path: 'buy', component: BuySpaceComponent },
+  { path: 'premium-ad-form', component: MbPpAdFormComponent },
+  { path: 'premium-sell-form', component: MbPpSellFormComponent },
+  { path: 'premium-alert-form', component: MbPpAlertFormComponent },
   { path: '**', redirectTo: '/login', pathMatch: 'full'}
 ];
 

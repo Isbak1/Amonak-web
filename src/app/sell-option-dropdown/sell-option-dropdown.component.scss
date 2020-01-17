@@ -10,17 +10,17 @@ font-size:14px;
 
 
 .mobileshow{
-visibility:hidden;
+display:none;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 .mobileshow {
-visibility: visible; }
+display:block; }
 }
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 .desktopshow {
 display:none; }
 }

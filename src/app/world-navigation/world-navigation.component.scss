@@ -1,7 +1,7 @@
 mat-card{
 border:none;
 box-shadow:none !important;
-background:#dbedf3;
+background:#E6ECF0;
 margin-top:10px;
 }
 
@@ -44,13 +44,13 @@ padding-right:5px;
 
 
 
-#bottom-bar {
+#top-bar {
   position: absolute;
   width: 100%;
   top: 63px;
 }
 
-#bottom-bar button {
+#top-bar button {
   float: left;
   border: none;
   width: 50%;
@@ -62,17 +62,17 @@ padding-right:5px;
   font-family: "proxima-nova",  "Source Sans Pro", sans-serif;
 }
 
-#bottom-bar button:focus {
+#top-bar button:focus {
   outline: none;
 }
-#bottom-bar button:nth-child(1) {
+#top-bar button:nth-child(1) {
   border-right: 1px solid #2c3e50;
 }
 
-#bottom-bar button:hover {
+#top-bar button:hover {
   background: #435f7a;
 }
-#bottom-bar button i {
+#top-bar button i {
   margin-right: 3px;
   font-size: 1em;
 }
@@ -89,7 +89,7 @@ padding-right:5px;
 }
 
 #frame::-webkit-scrollbar {
-  height:4px;
+  height:2px;
   background: transparent;
 }
 #frame::-webkit-scrollbar-thumb {
@@ -119,5 +119,4 @@ border:0px;
 .frame-row{
 width:1000px !important;
 max-width:auto !important;
-padding-left:20px;
 }

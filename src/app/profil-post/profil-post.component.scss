@@ -20,6 +20,18 @@ margin-right:15px;
   outline:none;
 }
 
+@media screen and (min-width: 800px) {
+  #desktopshow{
+  display:block;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  #desktopshow{
+  display:none;
+  }
+}
 
 .hovereffect {
     width: 100%;
@@ -170,12 +182,22 @@ opacity:0.9;
     width: 350px;
     height: 32px;
     outline: none !important;
-    background: #dbedf3;
+    background: #E6ECF0;
     padding-left:15px;
     margin-left:40px;
     font-size:14px;
 }
 
+.mb-searchBar{
+    border: 1px solid #33425b;
+    border-radius: 3px;
+    width: 85%;
+    height: 32px;
+    outline: none !important;
+    background: #E6ECF0;
+    padding-left:15px;
+    font-size:14px;
+}
 
 .example-header-image {
   background-image: url('../../assets/imgs/man.jpg');
@@ -289,4 +311,16 @@ margin-left:3px;
 
 mat-card-title{
 font-size:15px !important;
+}
+
+@media screen and (min-width: 800px) {
+  #mobileshow{
+  display:none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #mobileshow{
+  display:block;
+  }
 }

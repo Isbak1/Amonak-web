@@ -1,24 +1,126 @@
 .premium-page{
 width:100%;
-background:#d8e9f0;
-min-height:100%;
+background:#E6ECF0;
+height:100vh;
 margin-bottom:0px;
 }
 
-.contain-page{
-margin-top:70px;
-}
 
 .padding-l{
 padding-left:0px !important;
 }
 
-
-mat-card{
+.contain-page{
 background:none;
 box-shadow:none !important;
 }
 
-.contain-page{
-margin-top:64px;
+
+#frame {
+  min-height: calc(100% - 0vh);
+  max-height: calc(100vh - 0vh);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#frame::-webkit-scrollbar {
+  width: 8px;
+  background: transparent;
+}
+#frame::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 800px) {
+#frame{
+  display:none;
+}
+}
+
+#mobileshow{
+display:none;
+}
+
+@media screen and (max-width: 800px) {
+#mobileshow{
+  display:block;
+}
+}
+
+
+#mb-nav-frame {
+  min-width: calc(90% - 50px);
+  max-width: calc(450px - 50px);
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+#mb-nav-frame::-webkit-scrollbar {
+  height:2px;
+  background: transparent;
+}
+#mb-nav-frame::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.btn-style{
+border:1px solid #32465a;
+border-radius:5px;
+color:#32465a;
+background:none;
+margin-right:5px;
+margin-left:5px;
+height:30px;
+padding:3px 7px 3px 7px;
+margin-bottom:10px;
+outline:none;
+}
+
+.btn-style:hover{
+background:#32465a;
+color:white;
+border:0px;
+}
+
+.mb-frame-row{
+width:350px !important;
+max-width:auto !important;
+}
+
+
+.premium-input{
+border-radius:4px;
+border: 0.5px solid #dcdde1;
+height:35px;
+width:100%;
+font-size:14px;
+outline:none !important;
+margin-top:25px;
+padding-left:15px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.submit-style{
+width:170px;
+height:40px;
+font-size:14px;
+border-radius:5px;
+border:1px solid #27ae60;
+color:#27ae60;
+background:none;
+margin-top:25px;
+outline:none;
+}
+
+.submit-style:hover{
+background:#27ae60;
+color:white;
+transition:0.3s;
 }
