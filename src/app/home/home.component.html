@@ -28,74 +28,105 @@
         <div class="row d-flex justify-content-center pub-icons-row">
           <div class="col-3 p-4 pub-icon height-mobile text-center d-flex justify-content-center replies">
             <a href="#" class="pub-link desktop-show" data-toggle="modal" data-target="#modalPost">
-              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/pen-post.png" width="35px" height="35px" class="publish-icon"></div>
-              <div class="subtitle">Post</div>
-            </a>
-            <a routerLink="/post-form" class="pub-link mobile-show">
-              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/pen-post.png" width="40px" height="40px" class="publish-icon"></div>
+              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/pen-post.png" width="25px" height="25px" class="publish-icon"></div>
               <div class="subtitle">Post</div>
             </a>
           </div>
           <div class="col-3 p-4 pub-icon height-mobile text-center d-flex justify-content-center replies">
             <a href="#" class="pub-link desktop-show" data-toggle="modal" data-target="#modalSell">
-              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/basket-sell.png" width="35px" height="35px" class="publish-icon"></div>
-              <div class="subtitle">Sell</div>
-            </a>
-            <a routerLink="/sell-form" class="pub-link mobile-show">
-              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/basket-sell.png" width="40px" height="40px" class="publish-icon"></div>
+              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/basket-sell.png" width="25px" height="25px" class="publish-icon"></div>
               <div class="subtitle">Sell</div>
             </a>
           </div>
           <div class="col-3 p-4 pub-icon height-mobile text-center d-flex justify-content-center replies">
             <a class="pub-link desktop-show" data-toggle="modal" data-target="#modalAlert">
-              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/megaphone.png" width="35px" height="35px" class="publish-icon"></div>
-              <div class="subtitle">Alert</div>
-            </a>
-            <a routerLink="/alert-form" class="pub-link mobile-show">
-              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/megaphone.png" width="40px" height="40px" class="publish-icon"></div>
+              <div class="img-pub d-flex justify-content-center align-items-center"><img src="../../assets/imgs/megaphone.png" width="25px" height="25px" class="publish-icon"></div>
               <div class="subtitle">Alert</div>
             </a>
           </div>
-          <div class="col-12 stories-row" id="mobile-stories">
-            <font class="stories-font">Stories</font>
-            <div class="col-md-12 col-sm-12 d-flex justify-content-start align-items-center storiesContain">
-              <div class="hover01">
-                <button class="story-btn">
-                  <div>
-                    <figure><div mat-card-avatar class="storybull"><font class="create-story"><i class="material-icons">album</i></font></div></figure>
+          <div id="mobile-stories">
+            <div class="row storiesContain mb-2">
+              <button class="my-story-btn">
+                <figure>
+                  <div mat-card-avatar class="storybull">
+                  <font class="create-story d-flex align-items-center"><img src="../../assets/imgs/icons/short-add-white.png"/></font>
                   </div>
-                </button>
-              </div>
-              <div class="hover01">
-                <button class="story-btn">
-                  <div>
-                    <figure><div mat-card-avatar class="storybull"></div></figure>
-                  </div>
-                </button>
-              </div>
-              <div class="hover01">
-                <button class="story-btn">
-                  <div>
-                    <figure><div mat-card-avatar class="storybull"></div></figure>
-                  </div>
-                </button>
-              </div>
-              <div class="hover01">
-                <button class="story-btn">
-                  <div>
-                    <figure><div mat-card-avatar class="storybull"></div></figure>
-                  </div>
-                </button>
-              </div>
-              <div class="hover01">
-                <button class="story-btn">
-                  <div>
-                    <figure><div mat-card-avatar class="storybull"></div></figure>
-                  </div>
-                </button>
-              </div>
+                </figure>
+              </button>
+              <button class="story-btn">
+                <figure><div mat-card-avatar class="storybull"></div></figure>
+              </button>
+              <button class="story-btn">
+                <figure><div mat-card-avatar class="storybull"></div></figure>
+              </button>
+              <button class="story-btn">
+                <figure><div mat-card-avatar class="storybull"></div></figure>
+              </button>
+              <button class="story-btn">
+                <figure><div mat-card-avatar class="storybull"></div></figure>
+              </button>
+              <button class="story-btn">
+                <figure><div mat-card-avatar class="storybull"></div></figure>
+              </button>
+              <button class="story-btn">
+                <figure><div mat-card-avatar class="storybull"></div></figure>
+              </button>
+              <button class="story-btn">
+                <figure><div mat-card-avatar class="storybull"></div></figure>
+              </button>
+              <button class="story-btn">
+                <figure><div mat-card-avatar class="storybull"></div></figure>
+              </button>
+              <button class="story-btn">
+                <figure><div mat-card-avatar class="storybull"></div></figure>
+              </button>
             </div>
           </div>
+<!--          <div class="col-12 stories-row mb-2">-->
+<!--            <font class="stories-font desktop-show">Stories</font>-->
+<!--            <div class="col-md-12 col-sm-12 d-flex justify-content-start align-items-center storiesContain">-->
+<!--              <div class="hover01">-->
+<!--                <button class="story-btn">-->
+<!--                    <figure><div mat-card-avatar class="storybull"><font class="create-story"><i class="material-icons">album</i></font></div></figure>-->
+<!--                </button>-->
+<!--              </div>-->
+<!--              <div class="hover01">-->
+<!--                <button class="story-btn">-->
+<!--                    <figure><div mat-card-avatar class="storybull"></div></figure>-->
+<!--                </button>-->
+<!--              </div>-->
+<!--              <div class="hover01">-->
+<!--                <button class="story-btn">-->
+<!--                    <figure><div mat-card-avatar class="storybull"></div></figure>-->
+<!--                </button>-->
+<!--              </div>-->
+<!--              <div class="hover01">-->
+<!--                <button class="story-btn">-->
+<!--                  <figure><div mat-card-avatar class="storybull"></div></figure>-->
+<!--                </button>-->
+<!--              </div>-->
+<!--              <div class="hover01">-->
+<!--                <button class="story-btn">-->
+<!--                  <figure><div mat-card-avatar class="storybull"></div></figure>-->
+<!--                </button>-->
+<!--              </div>-->
+<!--              <div class="hover01">-->
+<!--                <button class="story-btn">-->
+<!--                  <figure><div mat-card-avatar class="storybull"></div></figure>-->
+<!--                </button>-->
+<!--              </div>-->
+<!--              <div class="hover01">-->
+<!--                <button class="story-btn">-->
+<!--                  <figure><div mat-card-avatar class="storybull"></div></figure>-->
+<!--                </button>-->
+<!--              </div>-->
+<!--              <div class="hover01">-->
+<!--                <button class="story-btn">-->
+<!--                  <figure><div mat-card-avatar class="storybull"></div></figure>-->
+<!--                </button>-->
+<!--              </div>-->
+<!--            </div>-->
+<!--          </div>-->
           <app-news-fil></app-news-fil>
         </div>
       </div>

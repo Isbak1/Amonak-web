@@ -2,14 +2,17 @@
   <a routerLink="/home" class="navbar-brand d-flex justify-items-center" style="margin-left: 20px">
     <img src="../../assets/imgs/white-l.png" width="40" height="35" class="d-inline-block align-top align-start" alt="">
   </a>
-  <form class="search-form">
-    <input class="mobile-searchBar" type="search" placeholder="  Search..." aria-label="Search">
-  </form>
+
   <div>
     <ul class="nav">
       <li class="nav-item right-5">
-        <button mat-button routerLink="/notifications" class="nav-link" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-          <img src="../../assets/imgs/icons/notification-white.png" width="20px" height="20px">
+        <button mat-button routerLink="/world" class="nav-link" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <img src="../../assets/imgs/icons/white-search.png" width="27px">
+        </button>
+      </li>
+      <li class="nav-item right-5">
+        <button mat-button routerLink="/notifications" class="nav-link ml-4" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          <img src="../../assets/imgs/icons/notification-white.png" width="27px">
           <div id="signalPoint"><i class="fas fa-circle"></i></div>
         </button>
       </li>
@@ -23,21 +26,21 @@
 </div>
 <div class="container fixed-bottom mobile-navbar nvbr-bottom">
   <div class="row nav-row">
-    <div routerLink="/home" class="d-flex items-col justify-content-center align-items-center">
-      <img src="../../assets/imgs/icons/home-black.png" width="25" height="25">
+    <div routerLink="/home" class="d-flex mt-2 items-col justify-content-center align-items-center">
+      <img src="../../assets/imgs/icons/home-black.png" width="27px">
     </div>
-    <div routerLink="/world" class="d-flex items-col justify-content-center align-items-center">
-      <img src="../../assets/imgs/icons/world.png" width="25" height="25">
+    <div routerLink="/world" class="d-flex mt-2 items-col justify-content-center align-items-center">
+      <img src="../../assets/imgs/icons/world.png" width="27px">
     </div>
-    <div class="d-flex items-col justify-content-center align-items-center" data-toggle="modal" data-target="#modalPublish">
-      <img src="../../assets/imgs/icons/add-black.png" width="25" height="25">
+    <div class="d-flex mt-2 items-col justify-content-center align-items-center" data-toggle="modal" data-target="#modalPublish">
+      <img src="../../assets/imgs/icons/add-black.png" width="27px">
     </div>
-    <div routerLink="/chats" class="d-flex items-col justify-content-center align-items-center">
-      <img src="../../assets/imgs/icons/chat.png" width="25" height="25">
+    <div routerLink="/chats" class="d-flex mt-2 items-col justify-content-center align-items-center">
+      <img src="../../assets/imgs/icons/chat.png" width="27px">
 <!--      <div class="point" onclick="style='display:none;'"><i class="fas fa-circle"></i></div>-->
     </div>
     <div class="d-flex items-col justify-content-center align-items-center">
-      <div class="avatar-bottom" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></div>
+      <div class="avatar-bottom mb-1 mt-1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></div>
       <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
         <app-window-more></app-window-more>
       </ul>

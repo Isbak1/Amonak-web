@@ -1,3 +1,8 @@
+<div class="modal fade" id="buymodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+  <app-buy-space></app-buy-space>
+</div>
+
 <mat-card class="col-12 mb-3" id="desktopshow">
   <mat-card-header>
     <div mat-card-avatar class="example-header-image"></div>
@@ -25,7 +30,7 @@
       <img src="../../assets/imgs/icons/like.png" width="20px" height="20px">
       <font>&nbsp;150</font>
     </button>
-    <button mat-button >
+    <button mat-button data-toggle="modal" data-target="#buymodal">
       <i class="material-icons icon-touch"><img src="../../assets/imgs/icons/basket.png" width="20px" height="20px"></i>
       <font>&nbsp;1</font>
     </button>

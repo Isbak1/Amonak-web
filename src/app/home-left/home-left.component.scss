@@ -18,6 +18,7 @@ margin-left:-25px;
 
 .cat-fiend{
 font-size:11px !important;
+margin-left:-10px !important;
 }
 
 .hover01{
@@ -28,6 +29,7 @@ z-index:1;
 
 .user-row{
 width:220px;
+margin-bottom:5px;
 }
 
 
@@ -65,7 +67,7 @@ background:none;
 padding:0px;
 background:none;
 height:50px;
-width:250px;
+width:265px;
 }
 
 .addlist-img{
@@ -77,6 +79,7 @@ left:15px;
 
 .username{
 font-size:15px;
+margin-left:-10px !important;
 }
 
 
@@ -98,18 +101,20 @@ height:46px;
 padding:0px;
 }
 
+
+
 .add-friend{
-position:absolute;
-right:-15px;
-height:40px !important;
-width:40px !important;
-padding:0px !important;
+border:none;
+background:#3c4f65;
+outline:none;
 border-radius:50%;
-color:#2980b9;
-border:0px;
-background:none;
-outline:none !important;
+height:25px;
+width:25px;
+position:absolute;
+right:0px;
+padding:0px;
 }
+
 
 .suggestion-title{
 color:#283149;
@@ -160,4 +165,24 @@ background:none;
 border:0px;
 outline:none !important;
 padding:0px !important;
+}
+
+
+.accordionFrame {
+  min-height: calc(100% - 0px);
+  max-height: calc(260px - 0px);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.accordionFrame::-webkit-scrollbar {
+  width: 5px;
+  background: transparent;
+}
+.accordionFrame::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.accordionFrame:hover{
+overflow-y: scroll;
 }

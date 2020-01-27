@@ -14,8 +14,10 @@
 .nvbr-bottom{
 background-color: white;
 padding:0px;
-height:45px !important;
+height:auto !important;
 box-shadow:1px 0px 1px 0px gray;
+padding-top:3px;
+padding-bottom:3px;
 }
 
 .nav-row{
@@ -33,7 +35,6 @@ background-size:cover;
 height:35px;
 width:35px;
 border-radius:50%;
-border:1.5px solid silver;
 }
 
 
@@ -152,5 +153,6 @@ font-size:13px;
 .right-5{
 margin-right:-40px;
 }
+
 
 

@@ -1,8 +1,100 @@
-<div id="contain-page">
+<div id="desktopshow" class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header text-center">
+      <div class="first-bar">
+        <button class="area" onclick="style='background:#435f7a;'"><img src="../../assets/imgs/icons/short-white-booking.png"> &nbsp;<span>Booking</span></button>
+        <button class="type" onclick="style='background:#435f7a;'"><img src="../../assets/imgs/icons/short-white-pay.png"> &nbsp;<span>Pay online</span></button>
+      </div>
+    </div>
+    <div class="modal-body pt-0" id="booking">
+      <div class="modal-body pt-0">
+        <mat-card class="pt-0">
+          <p class="mb-3 h-7">your money will be secured and sent after your delivery.</p>
+          <div class="row">
+            <div class="col-12 mb-3">
+              <input type="text" class="d-input-style large-size" placeholder="Adress...">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <input type="number" class="d-input-style large-size mb-5" placeholder="Your phone...">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-6 col-sm-6 col-xs-6 d-flex justify-content-start align-items-center">
+              <button class="type-btn"><label><input type="radio" name="optradio" checked>Short time&nbsp;<font size="1">1 week</font></label></button>
+            </div>
+            <div class="col-12 col-md-6 col-sm-6 col-xs-6 d-flex justify-content-start align-items-center">
+              <button class="type-btn"><label><input type="radio" name="optradio">Long time&nbsp;<font size="1">1 month</font></label></button>
+            </div>
+          </div>
+        </mat-card>
+      </div>
+
+      <mat-card class="pt-0" id="onlinePay">
+        <p class="mb-3 h-7">your money will be secured and sent after your delivery.</p>
+        <div class="row">
+          <div class="col-12 mb-3">
+            <input type="text" class="d-input-style large-size" placeholder="Adress...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mb-3">
+            <input type="number" class="d-input-style large-size" placeholder="Your phone...">
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-12 col-md-6 col-sm-6 col-xs-6 d-flex justify-content-start align-items-center">
+            <button class="type-btn"><label><input type="radio" name="optradio" checked>Short time&nbsp;<font size="1">1 week</font></label></button>
+          </div>
+          <div class="col-12 col-md-6 col-sm-6 col-xs-6 d-flex justify-content-start align-items-center">
+            <button class="type-btn"><label><input type="radio" name="optradio">Long time&nbsp;<font size="1">1 month</font></label></button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mb-3">
+            <input type="number" class="d-input-style large-size" maxlength="16" placeholder="Card number...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mb-3">
+            <input type="text" class="d-input-style large-size" maxlength="9" placeholder="Expiration date...">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 mb-3">
+            <input type="number" class="d-input-style short-size" maxlength="4" placeholder="Cvc code...">
+          </div>
+        </div>
+      </mat-card>
+    </div>
+    <div class="modal-footer d-flex justify-content-center">
+      <div class="container validation-container">
+        <div class="row validation-row">
+          <div class="col-12 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-start align-items-center validation-col">
+            <button mat-button class="d-cancel-btn" data-dismiss="modal">Cancel</button>
+          </div>
+          <div class="col-12 col-md-6 col-sm-6 col-xs-12 d-flex justify-content-end align-items-center validation-col">
+            <button mat-button class="d-pay-btn" data-dismiss="modal">Pay</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<div id="contain-page" class="mobileshow">
   <app-mobile-navbar></app-mobile-navbar>
-  <div id="top-bar">
-    <button id="area"><img src="../../assets/imgs/icons/short-white-booking.png"> &nbsp;<span>Booking</span></button>
-    <button id="type"><img src="../../assets/imgs/icons/short-white-pay.png"> &nbsp;<span>Pay online</span></button>
+  <div class="top-bar">
+    <button class="area"><img src="../../assets/imgs/icons/short-white-booking.png"> &nbsp;<span>Booking</span></button>
+    <button class="type"><img src="../../assets/imgs/icons/short-white-pay.png"> &nbsp;<span>Pay online</span></button>
   </div>
   <mat-card>
     <p class="mb-2 h-7">your money will be secured and sent after your delivery.</p>
@@ -13,7 +105,15 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <input type="number" class="input-style large-size mb-4" placeholder="Your phone...">
+        <input type="number" class="input-style large-size mb-2" placeholder="Your phone...">
+      </div>
+    </div>
+    <div class="row mb-5 mt-2">
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <button class="type-btn"><label><input type="radio" name="optradio" checked>Short time&nbsp;<font size="1">1 week</font></label></button>
+      </div>
+      <div class="col-6 d-flex justify-content-start align-items-center">
+        <button class="type-btn"><label><input type="radio" name="optradio">Long time&nbsp;<font size="1">1 month</font></label></button>
       </div>
     </div>
     <div class="row">

@@ -1,5 +1,5 @@
 .login-page{
-  background-color: #dbedf3;
+  background-color: #E6ECF0;
   height: 100%;
   width: 100%;
 }
@@ -23,6 +23,7 @@
 
 mat-card{
   border-radius: 0px;
+  border-radius:7px;
 }
 
 
@@ -34,6 +35,7 @@ mat-card{
   width: 100%;
   background-color: #283149;
   color: #dbedf3;
+  border-radius:4px;
 }
 
 .login-btn:hover{
@@ -60,7 +62,8 @@ mat-card{
   border: 2px solid #fc3c3c;
   width: 100%;
   background-color: rgba(252, 60, 60, 0.06);
-  color: #fc3c3c
+  color: #fc3c3c;
+  border-radius:4px;
 }
 
 .cancel-btn:hover{
